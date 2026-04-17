@@ -191,6 +191,22 @@ export default function Contact() {
                 ]}
               />
 
+              {/* Address */}
+              <ContactBlock
+                label="Address"
+                lines={[
+                  <a
+                    key="address"
+                    href="https://maps.google.com/?q=63+Ingersol+Rd,+Lynnwood+Glen,+Pretoria,+0081"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={linkStyle}
+                  >
+                    63 Ingersol Rd<br />Lynnwood Glen<br />Pretoria, 0081
+                  </a>,
+                ]}
+              />
+
               {/* Urgent Bail Line */}
               <div
                 style={{
