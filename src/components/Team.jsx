@@ -32,9 +32,9 @@ const team = [
     vcard: '/vcards/chanel-louw.vcf',
   },
   {
-    name: 'ENZE PIETERSE',
+    name: 'ENZA PIETERSE',
     role: 'SECRETARY',
-    bio: 'Enze is the firm\'s dedicated Secretary, ensuring the office runs smoothly and that clients receive prompt, professional assistance from the moment they make contact.',
+    bio: 'Enza is the firm\'s dedicated Secretary, ensuring the office runs smoothly and that clients receive prompt, professional assistance from the moment they make contact.',
     photo: null,
     initials: 'EP',
     vcard: '/vcards/enze-pieterse.vcf',
@@ -65,7 +65,7 @@ const team = [
   },
   {
     name: 'ESTIAAN LUBBE',
-    role: 'PARALEGAL',
+    role: 'CANDIDATE ATTORNEY',
     bio: 'LLB — Akademia (currently studying). Estiaan is a Paralegal specializing in labour law, supporting the firm in employment-related matters including disciplinary proceedings, dismissals, and workplace disputes. He assists with case preparation, drafting documentation, and liaising with clients, and is known for a practical understanding of workplace procedures.',
     photo: '/img/EstiaanLubbe.jpeg',
     initials: 'EL',
