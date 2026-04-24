@@ -264,7 +264,7 @@ export default function Team() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 320px), 1fr))',
             gap: '24px',
             alignItems: 'stretch',
           }}
