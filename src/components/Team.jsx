@@ -79,7 +79,7 @@ function TeamCard({ member }) {
       href={member.vcard}
       download
       title={`Save ${member.name} to contacts`}
-      style={{ textDecoration: 'none', display: 'block' }}
+      style={{ textDecoration: 'none', display: 'flex', height: '100%' }}
     >
       <div
         style={{
@@ -89,6 +89,9 @@ function TeamCard({ member }) {
           overflow: 'hidden',
           cursor: 'pointer',
           transition: 'border-color 0.3s, transform 0.3s',
+          display: 'flex',
+          flexDirection: 'column',
+          width: '100%',
         }}
         onMouseEnter={e => {
           e.currentTarget.style.borderColor = 'rgba(210,174,109,0.5)'
@@ -261,8 +264,9 @@ export default function Team() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+            gridTemplateColumns: 'repeat(3, 1fr)',
             gap: '24px',
+            alignItems: 'stretch',
           }}
         >
           {team.map(member => (
