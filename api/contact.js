@@ -52,6 +52,6 @@ export default async function handler(req, res) {
     res.status(200).json({ ok: true })
   } catch (err) {
     console.error('Mail error:', err)
-    res.status(500).json({ error: 'Failed to send message. Please try again.', detail: err.message, code: err.code })
+    res.status(500).json({ error: 'Failed to send message. Please try again.', detail: err.message, code: err.code, host: process.env.SMTP_HOST || 'UNDEFINED' })
   }
 }
