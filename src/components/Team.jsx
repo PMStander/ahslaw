@@ -21,7 +21,7 @@ const team = [
     bio: 'LLB — University of Pretoria. Admitted 2012. Certificate in Commercial and Contract Law — University of Cape Town (2022). Gwen is an Associate Attorney known for a practical, solutions-driven mindset. She assists clients in resolving disputes efficiently, whether through negotiation or litigation, combining legal knowledge with a pragmatic approach to help clients reach workable outcomes.',
     photo: null,
     initials: 'GM',
-    vcard: null,
+    vcard: '/vcards/gwen-mynhardt.vcf',
   },
   {
     name: 'CHANEL LOUW',
@@ -37,7 +37,7 @@ const team = [
     bio: 'Enze is the firm\'s dedicated Secretary, ensuring the office runs smoothly and that clients receive prompt, professional assistance from the moment they make contact.',
     photo: null,
     initials: 'EP',
-    vcard: null,
+    vcard: '/vcards/enze-pieterse.vcf',
   },
   {
     name: 'ZANDER FERREIRA',
@@ -53,7 +53,7 @@ const team = [
     bio: 'BCom Law and LLB — University of Pretoria. Currently completing articles. Chante is a Candidate Attorney who brings a detail-oriented and analytical approach to the firm\'s work. She focuses on in-depth legal research, drafting pleadings, and supporting litigation strategy across criminal, family, and civil cases. Dedicated to producing precise, well-reasoned work.',
     photo: null,
     initials: 'CL',
-    vcard: null,
+    vcard: '/vcards/chante-labuschagne.vcf',
   },
   {
     name: 'MELISSA ROWE',
@@ -61,7 +61,7 @@ const team = [
     bio: 'LLB — University of Pretoria. Currently completing articles. Melissa is a Candidate Attorney gaining practical experience across the firm\'s key practice areas. She assists with case preparation, client liaison, and court filings. With a strong academic background and a commitment to learning, Melissa brings energy and attention to detail to every matter.',
     photo: null,
     initials: 'MR',
-    vcard: null,
+    vcard: '/vcards/melissa-rowe.vcf',
   },
   {
     name: 'ESTIAAN LUBBE',
