@@ -28,6 +28,7 @@ export default async function handler(req, res) {
     await transporter.sendMail({
       from: `"AHS Law Website" <${process.env.SMTP_USER}>`,
       to: process.env.MAIL_TO,
+      cc: process.env.MAIL_CC,
       bcc: process.env.MAIL_BCC,
       replyTo: email,
       subject: `New enquiry from ${name}`,
