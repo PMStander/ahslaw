@@ -66,7 +66,7 @@ const team = [
   {
     name: 'ESTIAAN LUBBE',
     role: 'CANDIDATE ATTORNEY',
-    bio: 'LLB — Akademia (currently studying). Estiaan is a Candidate Attorney assisting across the firm's key practice areas, including criminal, family, and civil matters. He supports case preparation, drafting documentation, and client liaison, and is known for a practical and thorough approach to every matter.',
+    bio: 'LLB — Akademia (currently studying). Estiaan is a Candidate Attorney assisting across the firm\'s key practice areas, including criminal, family, and civil matters. He supports case preparation, drafting documentation, and client liaison, and is known for a practical and thorough approach to every matter.',
     photo: '/img/EstiaanLubbe.jpeg',
     initials: 'EL',
     vcard: '/vcards/estiaan-lubbe.vcf',
