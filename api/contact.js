@@ -11,6 +11,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Name, email, and message are required.' })
   }
 
+  console.log('SMTP_HOST:', process.env.SMTP_HOST, 'SMTP_PORT:', process.env.SMTP_PORT)
   const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: 465,
