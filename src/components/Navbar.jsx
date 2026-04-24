@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react'
 
 const navLinks = [
   { label: 'Home', href: '#home' },
+  { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
-  { label: 'Civil Litigation', href: '#civil-litigation' },
-  { label: 'Criminal Law', href: '#criminal-law' },
-  { label: 'Family Law', href: '#family-law' },
-  { label: 'About Us', href: '#team' },
-  { label: 'Contact Us', href: '#contact' },
+  { label: 'Process', href: '#process' },
+  { label: 'Reviews', href: '#testimonials' },
+  { label: 'Team', href: '#team' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export default function Navbar() {

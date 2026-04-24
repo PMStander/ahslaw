@@ -1,180 +1,219 @@
 const team = [
   {
-    name: 'ADRIAAN HENDRIKUS STANDER',
-    role: 'EXECUTIVE DIRECTOR',
-    bio: 'Mr Rikus Stander obtained his LLB degree through the University of South Africa in 2012. He was admitted as an attorney in 2013 and has since built an extensive practice specialising in criminal law, civil litigation, and family law matters.',
+    name: 'RIKUS STANDER',
+    role: 'DIRECTOR',
+    bio: 'LLB — University of South Africa. Admitted 2013. Rikus is one of the Directors of the firm, with extensive experience across criminal, family, and civil law. He provides strategic leadership while maintaining an active practice, representing clients in complex and sensitive matters. Known for sound judgment and a client-focused approach, he plays an active role in shaping the firm\'s direction and strengthening its reputation for dependable, results-oriented service.',
     photo: '/img/Rikus-Stander.jpg',
-    initials: 'AS',
+    initials: 'RS',
+    vcard: '/vcards/adriaan-stander.vcf',
   },
   {
     name: 'GERT AGENBAG',
     role: 'DIRECTOR',
-    bio: 'Mr Gert Agenbag is a Director at AH Stander & Agenbag Inc. He brings a wealth of experience across multiple areas of law to the firm.',
+    bio: 'LLB — North West University. Admitted 2020. Gert is a Director of the firm, bringing a pragmatic and hands-on approach to legal practice. Known for being direct and solutions-driven, he prioritizes cutting through complexity to deliver straightforward, practical guidance and is committed to achieving fair and effective outcomes.',
     photo: '/img/Gert-Agenbag.jpg',
     initials: 'GA',
+    vcard: '/vcards/gert-agenbag.vcf',
   },
   {
-    name: 'PRIA UYS',
-    role: 'ATTORNEY',
-    bio: 'Ms. Pria Uys is an Attorney at AH Stander & Agenbag Inc. She brings extensive legal expertise and dedication to every client matter.',
-    photo: '/img/pria-uys.jpg',
-    initials: 'PU',
-  },
-  {
-    name: 'CHARL-MARI VAN WYK',
-    role: 'ATTORNEY',
-    bio: 'Ms. Charl-Mari Van Wyk is an Attorney at AH Stander & Agenbag Inc. She is committed to delivering professional and effective legal services.',
-    photo: '/img/Charl-Mari-Van-Wyk.jpg',
-    initials: 'CV',
-  },
-  {
-    name: 'CHRISTIAAN JANSEN VAN RENSBURG',
-    role: 'ATTORNEY',
-    bio: 'Mr. Christiaan Jansen Van Rensburg is an Attorney at AH Stander & Agenbag Inc. He brings thorough legal knowledge and a client-focused approach.',
-    photo: '/img/Christiaan-Jansen-Van-Rensburg.jpg',
-    initials: 'CR',
+    name: 'GWEN MYNHARDT',
+    role: 'ASSOCIATE',
+    bio: 'LLB — University of Pretoria. Admitted 2012. Certificate in Commercial and Contract Law — University of Cape Town (2022). Gwen is an Associate Attorney known for a practical, solutions-driven mindset. She assists clients in resolving disputes efficiently, whether through negotiation or litigation, combining legal knowledge with a pragmatic approach to help clients reach workable outcomes.',
+    photo: null,
+    initials: 'GM',
+    vcard: null,
   },
   {
     name: 'CHANEL LOUW',
-    role: 'CANDIDATE ATTORNEY',
-    bio: 'Ms. Chanel Louw is a Candidate Attorney at AH Stander & Agenbag Inc. Ms. Louw completed her LLB degree and is currently serving her articles with the firm.',
+    role: 'ASSOCIATE',
+    bio: 'LLB — University of Pretoria. Admitted 2024. Chanel is an Associate Attorney dedicated to guiding clients through challenging legal situations with clarity and care. She works across the firm\'s practice areas, ensuring clients remain informed and supported at every stage. Chanel is valued for a compassionate approach and strong communication skills.',
     photo: '/img/Chanel-Louw.jpeg',
     initials: 'CL',
+    vcard: '/vcards/chanel-louw.vcf',
+  },
+  {
+    name: 'ENZE PIETERSE',
+    role: 'SECRETARY',
+    bio: 'Enze is the firm\'s dedicated Secretary, ensuring the office runs smoothly and that clients receive prompt, professional assistance from the moment they make contact.',
+    photo: null,
+    initials: 'EP',
+    vcard: null,
   },
   {
     name: 'ZANDER FERREIRA',
     role: 'CANDIDATE ATTORNEY',
-    bio: 'Mr. Zander Ferreira is a Candidate Attorney at AH Stander & Agenbag Inc. He is committed to providing excellent legal assistance to all clients.',
+    bio: 'LLB — University of South Africa. Currently completing articles. Zander is a Candidate Attorney with a strong interest in client engagement and practical problem-solving. He works closely with clients in criminal, family, and civil matters, assisting with case preparation, consultations, and court representation. Known for a calm and approachable manner, he is committed to making the legal process more accessible.',
     photo: '/img/Zander-Ferreira.jpeg',
     initials: 'ZF',
+    vcard: '/vcards/zander-ferreira.vcf',
   },
   {
-    name: 'MICHAELA OBERHOLZER',
+    name: 'CHANTE LABUSCHAGNE',
     role: 'CANDIDATE ATTORNEY',
-    bio: 'Ms. Michaela Oberholzer is a Candidate Attorney at AH Stander & Agenbag Inc. She brings dedication and attention to detail to every matter.',
-    photo: '/img/MichaelaOberholzer.jpeg',
-    initials: 'MO',
+    bio: 'BCom Law and LLB — University of Pretoria. Currently completing articles. Chante is a Candidate Attorney who brings a detail-oriented and analytical approach to the firm\'s work. She focuses on in-depth legal research, drafting pleadings, and supporting litigation strategy across criminal, family, and civil cases. Dedicated to producing precise, well-reasoned work.',
+    photo: null,
+    initials: 'CL',
+    vcard: null,
+  },
+  {
+    name: 'MELISSA ROWE',
+    role: 'CANDIDATE ATTORNEY',
+    bio: 'LLB — University of Pretoria. Currently completing articles. Melissa is a Candidate Attorney gaining practical experience across the firm\'s key practice areas. She assists with case preparation, client liaison, and court filings. With a strong academic background and a commitment to learning, Melissa brings energy and attention to detail to every matter.',
+    photo: null,
+    initials: 'MR',
+    vcard: null,
   },
   {
     name: 'ESTIAAN LUBBE',
-    role: 'CANDIDATE ATTORNEY',
-    bio: 'Mr. Estiaan Lubbe is a Candidate Attorney at AH Stander & Agenbag Inc. He is passionate about justice and committed to his clients.',
+    role: 'PARALEGAL',
+    bio: 'LLB — Akademia (currently studying). Estiaan is a Paralegal specializing in labour law, supporting the firm in employment-related matters including disciplinary proceedings, dismissals, and workplace disputes. He assists with case preparation, drafting documentation, and liaising with clients, and is known for a practical understanding of workplace procedures.',
     photo: '/img/EstiaanLubbe.jpeg',
     initials: 'EL',
+    vcard: '/vcards/estiaan-lubbe.vcf',
   },
 ]
 
 function TeamCard({ member }) {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        textAlign: 'center',
-        padding: '40px 24px',
-        background: '#0d0d0d',
-        border: '1px solid rgba(210,174,109,0.12)',
-        borderRadius: '4px',
-        transition: 'border-color 0.3s, transform 0.3s',
-      }}
-      onMouseEnter={e => {
-        e.currentTarget.style.borderColor = 'rgba(210,174,109,0.5)'
-        e.currentTarget.style.transform = 'translateY(-4px)'
-      }}
-      onMouseLeave={e => {
-        e.currentTarget.style.borderColor = 'rgba(210,174,109,0.12)'
-        e.currentTarget.style.transform = 'translateY(0)'
-      }}
+    <a
+      href={member.vcard}
+      download
+      title={`Save ${member.name} to contacts`}
+      style={{ textDecoration: 'none', display: 'block' }}
     >
-      {/* Avatar */}
       <div
         style={{
-          width: '100px',
-          height: '100px',
-          borderRadius: '50%',
+          background: '#0d0d0d',
+          border: '1px solid rgba(210,174,109,0.12)',
+          borderRadius: '4px',
           overflow: 'hidden',
-          border: '2px solid rgba(210,174,109,0.4)',
-          marginBottom: '20px',
-          background: '#1a1a1a',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexShrink: 0,
+          cursor: 'pointer',
+          transition: 'border-color 0.3s, transform 0.3s',
+        }}
+        onMouseEnter={e => {
+          e.currentTarget.style.borderColor = 'rgba(210,174,109,0.5)'
+          e.currentTarget.style.transform = 'translateY(-4px)'
+        }}
+        onMouseLeave={e => {
+          e.currentTarget.style.borderColor = 'rgba(210,174,109,0.12)'
+          e.currentTarget.style.transform = 'translateY(0)'
         }}
       >
-        {member.photo ? (
-          <img
-            src={member.photo}
-            alt={member.name}
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          />
-        ) : (
-          <span
+        {/* Photo */}
+        <div
+          style={{
+            width: '100%',
+            aspectRatio: '3 / 4',
+            overflow: 'hidden',
+            background: '#1a1a1a',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            position: 'relative',
+          }}
+        >
+          {member.photo ? (
+            <img
+              src={member.photo}
+              alt={member.name}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }}
+            />
+          ) : (
+            <span
+              style={{
+                color: '#d2ae6d',
+                fontFamily: 'Raleway, sans-serif',
+                fontSize: '48px',
+                fontWeight: 700,
+              }}
+            >
+              {member.initials}
+            </span>
+          )}
+
+          {/* vCard badge */}
+          <div
             style={{
-              color: '#d2ae6d',
-              fontFamily: 'Raleway, sans-serif',
-              fontSize: '24px',
-              fontWeight: 700,
+              position: 'absolute',
+              bottom: '12px',
+              right: '12px',
+              background: 'rgba(0,0,0,0.75)',
+              border: '1px solid rgba(210,174,109,0.5)',
+              borderRadius: '40px',
+              padding: '5px 12px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
             }}
           >
-            {member.initials}
-          </span>
-        )}
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#d2ae6d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            <span
+              style={{
+                color: '#d2ae6d',
+                fontFamily: 'Lato, sans-serif',
+                fontSize: '10px',
+                fontWeight: 700,
+                letterSpacing: '2px',
+                textTransform: 'uppercase',
+              }}
+            >
+              Save Contact
+            </span>
+          </div>
+        </div>
+
+        {/* Info */}
+        <div style={{ padding: '20px 20px 24px' }}>
+          <p
+            style={{
+              color: '#d2ae6d',
+              fontFamily: 'Lato, sans-serif',
+              fontSize: '10px',
+              letterSpacing: '3px',
+              textTransform: 'uppercase',
+              margin: '0 0 8px 0',
+            }}
+          >
+            {member.role}
+          </p>
+          <h4
+            style={{
+              color: '#fff',
+              fontFamily: 'Raleway, sans-serif',
+              fontSize: '13px',
+              fontWeight: 700,
+              letterSpacing: '1px',
+              margin: '0 0 14px 0',
+            }}
+          >
+            {member.name}
+          </h4>
+          <div
+            style={{
+              width: '30px',
+              height: '1px',
+              background: 'rgba(210,174,109,0.4)',
+              marginBottom: '14px',
+            }}
+          />
+          <p
+            style={{
+              color: 'rgba(255,255,255,0.45)',
+              fontFamily: 'Open Sans, sans-serif',
+              fontSize: '12px',
+              lineHeight: '1.7',
+              margin: 0,
+            }}
+          >
+            {member.bio}
+          </p>
+        </div>
       </div>
-
-      {/* Name */}
-      <h4
-        style={{
-          color: '#fff',
-          fontFamily: 'Raleway, sans-serif',
-          fontSize: '14px',
-          fontWeight: 700,
-          letterSpacing: '2px',
-          marginBottom: '6px',
-          margin: '0 0 6px 0',
-        }}
-      >
-        {member.name}
-      </h4>
-
-      {/* Role */}
-      <p
-        style={{
-          color: '#d2ae6d',
-          fontFamily: 'Lato, sans-serif',
-          fontSize: '11px',
-          letterSpacing: '3px',
-          textTransform: 'uppercase',
-          margin: '0 0 18px 0',
-        }}
-      >
-        {member.role}
-      </p>
-
-      {/* Divider */}
-      <div
-        style={{
-          width: '40px',
-          height: '1px',
-          background: 'rgba(210,174,109,0.4)',
-          marginBottom: '18px',
-        }}
-      />
-
-      {/* Bio */}
-      <p
-        style={{
-          color: 'rgba(255,255,255,0.5)',
-          fontFamily: 'Open Sans, sans-serif',
-          fontSize: '13px',
-          lineHeight: '1.7',
-          margin: 0,
-        }}
-      >
-        {member.bio}
-      </p>
-    </div>
+    </a>
   )
 }
 
@@ -222,7 +261,7 @@ export default function Team() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
             gap: '24px',
           }}
         >
@@ -230,6 +269,20 @@ export default function Team() {
             <TeamCard key={member.name} member={member} />
           ))}
         </div>
+
+        {/* Hint */}
+        <p
+          style={{
+            color: 'rgba(255,255,255,0.25)',
+            fontFamily: 'Open Sans, sans-serif',
+            fontSize: '12px',
+            textAlign: 'center',
+            marginTop: '40px',
+            letterSpacing: '1px',
+          }}
+        >
+          Click any card to save the contact to your phone or device.
+        </p>
       </div>
     </section>
   )

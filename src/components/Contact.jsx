@@ -1,4 +1,34 @@
+import { useState } from 'react'
+
 export default function Contact() {
+  const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' })
+  const [status, setStatus] = useState('idle') // idle | sending | success | error
+  const [errorMsg, setErrorMsg] = useState('')
+
+  function handleChange(e) {
+    setForm(prev => ({ ...prev, [e.target.id]: e.target.value }))
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault()
+    setStatus('sending')
+    setErrorMsg('')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.error || 'Something went wrong.')
+      setStatus('success')
+      setForm({ name: '', email: '', phone: '', message: '' })
+    } catch (err) {
+      setStatus('error')
+      setErrorMsg(err.message)
+    }
+  }
+
   return (
     <section
       id="contact"
@@ -56,18 +86,108 @@ export default function Contact() {
             >
               Send us a message
             </h3>
-            <form
-              onSubmit={e => e.preventDefault()}
-              style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}
-            >
-              {[
-                { id: 'name', label: 'Full Name', type: 'text', placeholder: 'Your full name' },
-                { id: 'email', label: 'Email Address', type: 'email', placeholder: 'your@email.com' },
-                { id: 'phone', label: 'Phone Number', type: 'tel', placeholder: '+27 xx xxx xxxx' },
-              ].map(field => (
-                <div key={field.id}>
+
+            {status === 'success' ? (
+              <div
+                style={{
+                  background: 'rgba(210,174,109,0.08)',
+                  border: '1px solid rgba(210,174,109,0.4)',
+                  borderRadius: '4px',
+                  padding: '32px',
+                  textAlign: 'center',
+                }}
+              >
+                <p
+                  style={{
+                    color: '#d2ae6d',
+                    fontFamily: 'Raleway, sans-serif',
+                    fontSize: '16px',
+                    fontWeight: 700,
+                    marginBottom: '8px',
+                  }}
+                >
+                  Message Sent
+                </p>
+                <p
+                  style={{
+                    color: 'rgba(255,255,255,0.6)',
+                    fontFamily: 'Open Sans, sans-serif',
+                    fontSize: '13px',
+                    margin: '0 0 24px 0',
+                  }}
+                >
+                  Thank you for reaching out. We will be in touch shortly.
+                </p>
+                <button
+                  onClick={() => setStatus('idle')}
+                  style={{
+                    background: 'transparent',
+                    border: '1px solid rgba(210,174,109,0.4)',
+                    color: '#d2ae6d',
+                    fontFamily: 'Lato, sans-serif',
+                    fontSize: '11px',
+                    fontWeight: 700,
+                    letterSpacing: '2px',
+                    textTransform: 'uppercase',
+                    padding: '10px 24px',
+                    borderRadius: '40px',
+                    cursor: 'pointer',
+                  }}
+                >
+                  Send Another
+                </button>
+              </div>
+            ) : (
+              <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                {[
+                  { id: 'name', label: 'Full Name', type: 'text', placeholder: 'Your full name', required: true },
+                  { id: 'email', label: 'Email Address', type: 'email', placeholder: 'your@email.com', required: true },
+                  { id: 'phone', label: 'Phone Number', type: 'tel', placeholder: '+27 xx xxx xxxx', required: false },
+                ].map(field => (
+                  <div key={field.id}>
+                    <label
+                      htmlFor={field.id}
+                      style={{
+                        display: 'block',
+                        color: 'rgba(255,255,255,0.6)',
+                        fontFamily: 'Open Sans, sans-serif',
+                        fontSize: '11px',
+                        letterSpacing: '2px',
+                        textTransform: 'uppercase',
+                        marginBottom: '8px',
+                      }}
+                    >
+                      {field.label}
+                    </label>
+                    <input
+                      id={field.id}
+                      type={field.type}
+                      placeholder={field.placeholder}
+                      required={field.required}
+                      value={form[field.id]}
+                      onChange={handleChange}
+                      style={{
+                        width: '100%',
+                        background: '#0d0d0d',
+                        border: '1px solid rgba(210,174,109,0.2)',
+                        borderRadius: '2px',
+                        color: '#fff',
+                        fontFamily: 'Open Sans, sans-serif',
+                        fontSize: '14px',
+                        padding: '12px 16px',
+                        outline: 'none',
+                        boxSizing: 'border-box',
+                        transition: 'border-color 0.2s',
+                      }}
+                      onFocus={e => (e.target.style.borderColor = 'rgba(210,174,109,0.7)')}
+                      onBlur={e => (e.target.style.borderColor = 'rgba(210,174,109,0.2)')}
+                    />
+                  </div>
+                ))}
+
+                <div>
                   <label
-                    htmlFor={field.id}
+                    htmlFor="message"
                     style={{
                       display: 'block',
                       color: 'rgba(255,255,255,0.6)',
@@ -78,12 +198,15 @@ export default function Contact() {
                       marginBottom: '8px',
                     }}
                   >
-                    {field.label}
+                    Message
                   </label>
-                  <input
-                    id={field.id}
-                    type={field.type}
-                    placeholder={field.placeholder}
+                  <textarea
+                    id="message"
+                    rows={5}
+                    placeholder="Describe your legal matter..."
+                    required
+                    value={form.message}
+                    onChange={handleChange}
                     style={{
                       width: '100%',
                       background: '#0d0d0d',
@@ -94,6 +217,7 @@ export default function Contact() {
                       fontSize: '14px',
                       padding: '12px 16px',
                       outline: 'none',
+                      resize: 'vertical',
                       boxSizing: 'border-box',
                       transition: 'border-color 0.2s',
                     }}
@@ -101,69 +225,46 @@ export default function Contact() {
                     onBlur={e => (e.target.style.borderColor = 'rgba(210,174,109,0.2)')}
                   />
                 </div>
-              ))}
 
-              <div>
-                <label
-                  htmlFor="message"
+                {status === 'error' && (
+                  <p
+                    style={{
+                      color: '#e07070',
+                      fontFamily: 'Open Sans, sans-serif',
+                      fontSize: '13px',
+                      margin: 0,
+                    }}
+                  >
+                    {errorMsg}
+                  </p>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={status === 'sending'}
                   style={{
-                    display: 'block',
-                    color: 'rgba(255,255,255,0.6)',
-                    fontFamily: 'Open Sans, sans-serif',
-                    fontSize: '11px',
-                    letterSpacing: '2px',
+                    background: '#d2ae6d',
+                    color: '#000',
+                    border: 'none',
+                    fontFamily: 'Lato, sans-serif',
+                    fontSize: '12px',
+                    fontWeight: 700,
+                    letterSpacing: '3px',
                     textTransform: 'uppercase',
-                    marginBottom: '8px',
+                    padding: '16px 36px',
+                    borderRadius: '40px',
+                    cursor: status === 'sending' ? 'not-allowed' : 'pointer',
+                    alignSelf: 'flex-start',
+                    opacity: status === 'sending' ? 0.6 : 1,
+                    transition: 'background 0.2s, opacity 0.2s',
                   }}
+                  onMouseEnter={e => { if (status !== 'sending') e.target.style.background = '#c9a25a' }}
+                  onMouseLeave={e => (e.target.style.background = '#d2ae6d')}
                 >
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={5}
-                  placeholder="Describe your legal matter..."
-                  style={{
-                    width: '100%',
-                    background: '#0d0d0d',
-                    border: '1px solid rgba(210,174,109,0.2)',
-                    borderRadius: '2px',
-                    color: '#fff',
-                    fontFamily: 'Open Sans, sans-serif',
-                    fontSize: '14px',
-                    padding: '12px 16px',
-                    outline: 'none',
-                    resize: 'vertical',
-                    boxSizing: 'border-box',
-                    transition: 'border-color 0.2s',
-                  }}
-                  onFocus={e => (e.target.style.borderColor = 'rgba(210,174,109,0.7)')}
-                  onBlur={e => (e.target.style.borderColor = 'rgba(210,174,109,0.2)')}
-                />
-              </div>
-
-              <button
-                type="submit"
-                style={{
-                  background: '#d2ae6d',
-                  color: '#000',
-                  border: 'none',
-                  fontFamily: 'Lato, sans-serif',
-                  fontSize: '12px',
-                  fontWeight: 700,
-                  letterSpacing: '3px',
-                  textTransform: 'uppercase',
-                  padding: '16px 36px',
-                  borderRadius: '40px',
-                  cursor: 'pointer',
-                  alignSelf: 'flex-start',
-                  transition: 'background 0.2s',
-                }}
-                onMouseEnter={e => (e.target.style.background = '#c9a25a')}
-                onMouseLeave={e => (e.target.style.background = '#d2ae6d')}
-              >
-                Send Message
-              </button>
-            </form>
+                  {status === 'sending' ? 'Sending...' : 'Send Message'}
+                </button>
+              </form>
+            )}
           </div>
 
           {/* Contact Info */}
@@ -227,7 +328,7 @@ export default function Contact() {
                     fontWeight: 700,
                   }}
                 >
-                  🚨 Urgent Bail Line
+                  Urgent Bail Line
                 </p>
                 <a href="tel:0798981454" style={{ ...linkStyle, display: 'block', fontSize: '18px', marginBottom: '6px', fontWeight: 700 }}>
                   079 898 1454
@@ -252,11 +353,10 @@ export default function Contact() {
                 label="Quick Links"
                 lines={[
                   <a key="home" href="#home" style={navLinkStyle}>Home</a>,
+                  <a key="about" href="#about" style={navLinkStyle}>About</a>,
                   <a key="services" href="#services" style={navLinkStyle}>Services</a>,
-                  <a key="civil" href="#civil-litigation" style={navLinkStyle}>Civil Litigation</a>,
-                  <a key="criminal" href="#criminal-law" style={navLinkStyle}>Criminal Law</a>,
-                  <a key="family" href="#family-law" style={navLinkStyle}>Family Law</a>,
-                  <a key="about" href="#team" style={navLinkStyle}>About Us</a>,
+                  <a key="process" href="#process" style={navLinkStyle}>How We Work</a>,
+                  <a key="team" href="#team" style={navLinkStyle}>Our Team</a>,
                 ]}
               />
             </div>
