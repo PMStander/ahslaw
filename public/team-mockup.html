@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Layout Options</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #050505; color: #fff; font-family: 'Open Sans', sans-serif; }
+
+.section { padding: 80px 5%; }
+.section-label { color: #d2ae6d; font-family: 'Lato', sans-serif; font-size: 12px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 12px; }
+.section-title { color: #fff; font-family: 'Raleway', sans-serif; font-size: 36px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; }
+.section-bar { width: 60px; height: 2px; background: #d2ae6d; margin-bottom: 48px; }
+.option-label { display: inline-block; background: #d2ae6d; color: #000; font-family: 'Lato', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; padding: 8px 20px; border-radius: 40px; margin-bottom: 32px; }
+
+/* ── OPTION A — Portrait Cards ── */
+.grid-a { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+
+.card-a {
+  background: #0d0d0d;
+  border: 1px solid rgba(210,174,109,0.15);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.card-a:hover { border-color: rgba(210,174,109,0.5); transform: translateY(-4px); }
+
+.card-a .photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: #1a1a1a;
+  display: flex; align-items: center; justify-content: center;
+}
+.card-a .photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.card-a .initials-fallback {
+  color: #d2ae6d; font-family: 'Raleway', sans-serif; font-size: 48px; font-weight: 700;
+}
+.card-a .info { padding: 20px; }
+.card-a .role { color: #d2ae6d; font-family: 'Lato', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; }
+.card-a .name { color: #fff; font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1px; margin-bottom: 12px; }
+.card-a .bar { width: 30px; height: 1px; background: rgba(210,174,109,0.4); margin-bottom: 12px; }
+.card-a .bio { color: rgba(255,255,255,0.45); font-size: 12px; line-height: 1.7; }
+
+/* ── OPTION B — Horizontal Cards ── */
+.grid-b { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+
+.card-b {
+  background: #0d0d0d;
+  border: 1px solid rgba(210,174,109,0.15);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.card-b:hover { border-color: rgba(210,174,109,0.5); transform: translateY(-4px); }
+
+.card-b .photo {
+  width: 180px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: #1a1a1a;
+  display: flex; align-items: center; justify-content: center;
+}
+.card-b .photo img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.card-b .initials-fallback {
+  color: #d2ae6d; font-family: 'Raleway', sans-serif; font-size: 48px; font-weight: 700;
+}
+.card-b .info { padding: 28px 24px; display: flex; flex-direction: column; justify-content: center; }
+.card-b .role { color: #d2ae6d; font-family: 'Lato', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; }
+.card-b .name { color: #fff; font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 1px; margin-bottom: 14px; }
+.card-b .bar { width: 30px; height: 1px; background: rgba(210,174,109,0.4); margin-bottom: 14px; }
+.card-b .bio { color: rgba(255,255,255,0.45); font-size: 12px; line-height: 1.7; }
+
+.divider { border: none; border-top: 1px solid rgba(210,174,109,0.1); margin: 0; }
+</style>
+</head>
+<body>
+
+<!-- OPTION A -->
+<div class="section">
+  <p class="section-label">Our People</p>
+  <h2 class="section-title">Meet The Team</h2>
+  <div class="section-bar"></div>
+  <div class="option-label">Option A — Portrait Cards</div>
+  <div class="grid-a">
+    <!-- Card 1 -->
+    <div class="card-a">
+      <div class="photo"><img src="/img/Rikus-Stander.jpg" alt="Rikus Stander" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>AS</span>'"></div>
+      <div class="info">
+        <p class="role">Executive Director</p>
+        <h4 class="name">ADRIAAN HENDRIKUS STANDER</h4>
+        <div class="bar"></div>
+        <p class="bio">LLB (UNISA, 2012). Admitted 2013. Specialises in criminal law, civil litigation, and family law.</p>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="card-a">
+      <div class="photo"><img src="/img/Gert-Agenbag.jpg" alt="Gert Agenbag" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>GA</span>'"></div>
+      <div class="info">
+        <p class="role">Director</p>
+        <h4 class="name">GERT AGENBAG</h4>
+        <div class="bar"></div>
+        <p class="bio">Director with a wealth of experience across multiple areas of law.</p>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="card-a">
+      <div class="photo"><img src="/img/pria-uys.jpg" alt="Pria Uys" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>PU</span>'"></div>
+      <div class="info">
+        <p class="role">Attorney</p>
+        <h4 class="name">PRIA UYS</h4>
+        <div class="bar"></div>
+        <p class="bio">Extensive legal expertise and dedication to every client matter.</p>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="card-a">
+      <div class="photo"><img src="/img/Charl-Mari-Van-Wyk.jpg" alt="Charl-Mari Van Wyk" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>CV</span>'"></div>
+      <div class="info">
+        <p class="role">Attorney</p>
+        <h4 class="name">CHARL-MARI VAN WYK</h4>
+        <div class="bar"></div>
+        <p class="bio">Committed to delivering professional and effective legal services.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- OPTION B -->
+<div class="section" style="background:#000;">
+  <p class="section-label">Our People</p>
+  <h2 class="section-title">Meet The Team</h2>
+  <div class="section-bar"></div>
+  <div class="option-label">Option B — Horizontal Cards</div>
+  <div class="grid-b">
+    <!-- Card 1 -->
+    <div class="card-b">
+      <div class="photo"><img src="/img/Rikus-Stander.jpg" alt="Rikus Stander" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>AS</span>'"></div>
+      <div class="info">
+        <p class="role">Executive Director</p>
+        <h4 class="name">ADRIAAN HENDRIKUS STANDER</h4>
+        <div class="bar"></div>
+        <p class="bio">LLB (UNISA, 2012). Admitted 2013. Specialises in criminal law, civil litigation, and family law matters.</p>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="card-b">
+      <div class="photo"><img src="/img/Gert-Agenbag.jpg" alt="Gert Agenbag" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>GA</span>'"></div>
+      <div class="info">
+        <p class="role">Director</p>
+        <h4 class="name">GERT AGENBAG</h4>
+        <div class="bar"></div>
+        <p class="bio">Director with a wealth of experience across multiple areas of law.</p>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="card-b">
+      <div class="photo"><img src="/img/pria-uys.jpg" alt="Pria Uys" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>PU</span>'"></div>
+      <div class="info">
+        <p class="role">Attorney</p>
+        <h4 class="name">PRIA UYS</h4>
+        <div class="bar"></div>
+        <p class="bio">Extensive legal expertise and dedication to every client matter.</p>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="card-b">
+      <div class="photo"><img src="/img/Charl-Mari-Van-Wyk.jpg" alt="Charl-Mari Van Wyk" onerror="this.parentNode.innerHTML='<span class=\'initials-fallback\'>CV</span>'"></div>
+      <div class="info">
+        <p class="role">Attorney</p>
+        <h4 class="name">CHARL-MARI VAN WYK</h4>
+        <div class="bar"></div>
+        <p class="bio">Committed to delivering professional and effective legal services.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
