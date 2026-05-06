@@ -15,22 +15,40 @@ export default function Footer() {
       }}
     >
       {/* Logo */}
-      <a href="#home" style={{ textDecoration: 'none' }}>
+      <a href="/#home" style={{ textDecoration: 'none' }}>
         <img src="/img/logo.png" alt="AH Stander & Agenbag Inc." style={{ height: '40px', width: 'auto' }} />
       </a>
 
       {/* Copyright */}
-      <p
-        style={{
-          color: 'rgba(255,255,255,0.3)',
-          fontFamily: 'Open Sans, sans-serif',
-          fontSize: '12px',
-          margin: 0,
-          textAlign: 'center',
-        }}
-      >
-        &copy; {year} AH Stander &amp; Agenbag Inc. All rights reserved.
-      </p>
+      <div style={{ textAlign: 'center' }}>
+        <p
+          style={{
+            color: 'rgba(255,255,255,0.3)',
+            fontFamily: 'Open Sans, sans-serif',
+            fontSize: '12px',
+            margin: '0 0 6px',
+          }}
+        >
+          &copy; {year} AH Stander &amp; Agenbag Inc. All rights reserved.
+        </p>
+        <a
+          href="https://partnersinbiz.online"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: 'rgba(255,255,255,0.2)',
+            fontFamily: 'Open Sans, sans-serif',
+            fontSize: '11px',
+            textDecoration: 'none',
+            letterSpacing: '0.5px',
+            transition: 'color 0.2s',
+          }}
+          onMouseEnter={e => (e.currentTarget.style.color = '#c9a25a')}
+          onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.2)')}
+        >
+          Site managed by Partners in Biz
+        </a>
+      </div>
 
       {/* Social links */}
       <div style={{ display: 'flex', gap: '16px' }}>
