@@ -1,5 +1,5 @@
 ---
-title: "What the 2026 Labour Law Amendment Bill Means for You"
+title: "What the 2026 Labour Law Amendment Bill *Proposes* for You"
 slug: labour-law-amendment-bill-2026
 pillar: Labour
 hero_image: "../images/blog/B2-labour-bill-2026.png"
@@ -14,201 +14,134 @@ hero_image_prompt: |
   negative space on the right for headline overlay,
   ultra-sharp details, photorealistic, 3:2 aspect ratio,
   no text, no logos, no watermarks.
-word_count: 1820
-published: 2026-04-28
+word_count: 1400
+published: 2026-05-06
 references:
-  - "Polity — Labour Law Amendment Bill 2026: https://www.polity.org.za/article/labour-law-amendment-bill-2026-legislative-developments-and-economic-implications-2026-03-02"
-  - "Labourwise — New Earnings Threshold from 1 May 2026: https://labourwise.co.za/labour-news-teazer/new-earnings-threshold-as-from-1-may-2026"
-  - "BusinessTech — New laws for work hours coming to South Africa: https://businesstech.co.za/news/government/852511/new-laws-for-work-hours-coming-to-south-africa/"
-  - "DLA Piper Africa — South Africa Employment Law Update 2026"
+  - "Department of Employment and Labour – Labour Law Amendment Bills (Feb 2026)"
   - "Van Wyk and Others v Minister of Employment and Labour (Constitutional Court, 2025)"
+  - "Government Notice on BCEA earnings threshold (April 2026)"
 ---
 
-# What the 2026 Labour Law Amendment Bill Means for You
+# What the 2026 Labour Law Amendment Bill *Proposes* for You
 
-If you work in South Africa, or you employ anyone here, the rules just changed under your feet. The Labour Law Amendment Bill, published on **26 February 2026**, is the biggest shake-up of South African employment law in over a decade. It rewrites four Acts at once: the **Labour Relations Act (LRA), Basic Conditions of Employment Act (BCEA), Employment Equity Act (EEA), and National Minimum Wage Act**.
-
-What is at stake? Your severance pay could double. Both parents now share parental leave. Uber and Bolt drivers are pulled into the formal labour system. Employers can be sued for AI-driven discrimination. And from **1 May 2026**, the earnings threshold rises to **R22,466.74 per month** — a number that decides which BCEA protections apply to you.
-
-This is the plain-English breakdown.
-
----
-
-## What changed at a glance
-
-| Change | What it means |
-|---|---|
-| **Severance pay doubled** | From 1 to **2 weeks per completed year of service** on retrenchment |
-| **Universal parental leave** | **4 months** if one parent takes leave; **4 months + 10 days** if shared between both parents |
-| **Extended adoption leave** | Now covers children **under 6 years** (was previously narrower) |
-| **Platform/gig workers** | Uber, Bolt, Mr D, courier and delivery drivers now fall under LRA collective bargaining |
-| **On-call worker protections** | Minimum pay and advance-notice obligations for staff who are "on call" |
-| **Earnings threshold rises** | **R269,600.90 per year (R22,466.74 per month)** from 1 May 2026 |
-| **AI discrimination liability** | Employers liable for biased outcomes from automated recruitment and promotion tools |
-| **PTSD recognised under COIDA** | Post-traumatic stress disorder is now a compensable occupational disease |
-| **Start-up exemption** | Companies with **fewer than 50 employees** exempt from bargaining council agreements for **2 years** |
-
-We unpack each of these below.
+> **Important note:** The Labour Law Amendment Bill, 2025 (and the accompanying Labour Relations Amendment Bill, 2025) were published for public comment on 26–27 February 2026. As of early May 2026, these remain **draft Bills** undergoing parliamentary processes. They have **not yet been passed into law**. Employers and employees should treat the changes below as **proposed** and prepare accordingly, while monitoring the Government Gazette for final enactment dates.
+>
+> The only change that has already taken effect is the separate BCEA earnings threshold increase (see section 3 below).
 
 ---
 
-## 1. Severance pay: from 1 week to 2 weeks per year of service
+## What the Bills propose at a glance
 
-For decades, **section 41 of the BCEA** required an employer to pay a retrenched worker **one week's remuneration for every completed year of continuous service**. Most workers found that small. Many never even claimed it.
-
-The Bill **doubles that figure to 2 weeks per completed year of service**.
-
-### What this looks like in rands
-
-A bookkeeper who has worked for the same firm for 10 years and earns R20,000 per month:
-
-- **Old rule:** 10 weeks of pay. Roughly **R46,150**.
-- **New rule:** 20 weeks of pay. Roughly **R92,300**.
-
-That is the difference between two months and four months of breathing room while you find another job. The change is automatic the moment the Bill comes into force; you do not need to negotiate it.
-
-### What it does not change
-
-Severance still only applies to **operational requirements (retrenchment) dismissals** under section 189 of the LRA. It does not apply if you resign, are dismissed for misconduct, or fail probation fairly.
+| Proposed Change | What it would mean |
+|-----------------|--------------------|
+| Severance pay doubled | From 1 to 2 weeks\' remuneration per completed year of service for operational requirement (retrenchment) dismissals |
+| Universal/shared parental leave | 4 months total if one parent takes it; 4 months + 10 days if shared between both parents |
+| Adoption & surrogacy leave | Unified and extended under the new parental leave framework |
+| Platform/gig workers | Stronger presumption of employment; rights to unionise, bargain collectively, and refer unfair dismissal disputes to the CCMA |
+| On-call / zero-hour workers | Minimum pay guarantees and reasonable advance notice |
+| Earnings threshold (already in force) | R269,600.90 per year (R22,466.74 per month) from 1 May 2026 |
+| AI / algorithmic discrimination | Employers liable for biased outcomes from automated HR tools under the EEA |
+| Start-up exemption | Companies with fewer than 50 employees exempt from certain bargaining council agreements for 2 years (proposed) |
 
 ---
 
-## 2. Universal parental leave: the Van Wyk ruling becomes law
+## 1. Severance pay: proposed increase to 2 weeks per year of service
 
-In **2025 the Constitutional Court** delivered the landmark **Van Wyk** ruling. It declared the BCEA's gendered parental leave provisions unconstitutional. The old framework gave **4 months to mothers** and only **10 days to fathers**. The Court said this discriminates against fathers, same-sex parents, and adoptive parents.
+The Bills propose amending section 41 of the BCEA to double the statutory minimum severance pay for dismissals based on operational requirements (retrenchments under s189 of the LRA) from **one week to two weeks** per completed year of continuous service.
 
-The Bill now codifies what Van Wyk demanded.
+**Example** (employee earning R20,000 per month with 10 years\' service):
+- Current rule: 10 weeks ≈ R46,150
+- Proposed new rule: 20 weeks ≈ R92,300
 
-### The new rule, in plain terms
-
-- **4 months total parental leave**, available to either parent.
-- If the parents **share** the leave between them, they unlock an additional **10 days** — so a combined **4 months + 10 days**.
-- The leave is the same whether the child is biological, adopted, or born via surrogacy.
-- Adoption protection is **extended to children under 6 years old**.
-
-### What this means in real life
-
-A new dad who used to get 10 days can now take up to 4 months. A same-sex couple no longer has to argue about who counts as "the mother." Adoptive parents get the same protection as biological parents.
-
-UIF parental benefits will follow the new structure — you claim through the Department of Employment and Labour the same way as before, with the new days reflected on the system.
+This would only apply to future retrenchments after the Bill commences and would be prospective. Severance still does **not** apply to resignations, misconduct dismissals, or fair probation outcomes.
 
 ---
 
-## 3. The new earnings threshold: R22,466.74 from 1 May 2026
+## 2. Parental leave: codifying the Van Wyk ruling
 
-This number does more than people think.
+In October 2025, the Constitutional Court in *Van Wyk and Others v Minister of Employment and Labour* declared the previous gendered maternity/parental leave provisions unconstitutional. The Court implemented interim relief and gave Parliament time to legislate a permanent solution.
 
-### What the threshold actually does
+The Bill proposes to make the following the permanent framework:
+- A single or sole employed parent: **4 months** parental leave.
+- Two employed parents: **4 months + 10 days** total, to be shared by agreement (with priority to the birthing parent where relevant).
+- Applies equally to birth, adoption, and surrogacy.
+- UIF benefits would align with the new structure.
 
-The BCEA divides employees into two groups:
-
-- **Below the threshold:** You get the **full set of BCEA protections** — overtime pay, ordinary hours of work, meal intervals, daily and weekly rest periods, Sunday pay, public holiday pay, night work allowances.
-- **Above the threshold:** You **waive certain BCEA protections** because the law assumes you have the bargaining power to negotiate your own terms.
-
-From **1 May 2026**, the threshold is **R269,600.90 per year**, which works out to **R22,466.74 per month**.
-
-### The hidden traps
-
-If you earn just below this amount, your employer **cannot lawfully refuse to pay you overtime** for hours worked over 45 a week (or as varied by your contract).
-
-If you earn just above it, you are not automatically entitled to overtime — but your contract still rules. If your contract says you get overtime, the contract wins.
-
-The threshold is also the cut-off for a number of LRA provisions, including the right to refer certain disputes about working time to the CCMA. If you are sitting near the line, this is worth a conversation with us before signing anything.
+Adoption protections are broadened under the unified parental leave system.
 
 ---
 
-## 4. Platform and gig workers: Uber, Bolt and couriers are now in
+## 3. Earnings threshold: R22,466.74 per month (already in effect)
 
-For years, ride-hailing and delivery drivers in South Africa lived in a legal grey zone. Were they employees? Independent contractors? Something in between? The platforms said "contractors" — which meant no minimum wage, no leave, no UIF, and no right to bargain collectively.
+**This change is law.** From **1 May 2026**, the BCEA earnings threshold is R269,600.90 per annum (≈ R22,466.74 per month).
 
-The Bill puts that fight to rest.
+**Impact:**
+- Employees **below** the threshold receive full BCEA protections (overtime, ordinary hours, meal intervals, rest periods, Sunday/public holiday pay, night work allowances).
+- Employees **above** the threshold can contract out of certain protections.
 
-### What the Bill does
-
-It amends the LRA to bring **non-standard and platform-based workers** into the scope of collective bargaining and basic protection. In practical terms:
-
-- Uber, Bolt, Mr D, Checkers Sixty60, courier drivers and similar workers can now be **legally recognised employees** for the purposes of organising and bargaining.
-- They can form or join unions.
-- They get the right to refer unfair dismissal disputes to the CCMA where the relationship is in substance employment, even if the contract calls them "partners" or "contractors."
-- **On-call workers** get minimum pay guarantees and advance notice when their shift will activate.
-
-If you drive for a platform and your "shift" was cancelled at the last minute, or you were de-activated without a hearing, you now have a clear legal route. We are watching the first cases under this section closely.
+Employers must review payrolls immediately, as some employees who were previously above the old threshold (R261,748.45) may now qualify for additional protections.
 
 ---
 
-## 5. AI in recruitment: employers liable for algorithmic discrimination
+## 4. Platform and gig workers: proposed stronger protections
 
-This is the quiet revolution inside the Bill.
-
-The **Employment Equity Act (EEA)** has always banned unfair discrimination on race, gender, disability and other listed grounds. The Bill makes one critical addition: an employer is now **liable for the discriminatory outcomes of AI tools** they use in recruitment, promotion, performance management, or termination.
-
-### Why this matters
-
-If you applied for a job and a CV-screening AI rejected you because of your name, your school, your postcode, or any other proxy for a protected ground — that is now actionable under the EEA. The employer cannot hide behind "the algorithm did it."
-
-### What employers must do now
-
-- Audit any AI tool you use in HR for bias.
-- Keep records of how the tool reaches its decisions.
-- Make sure a human, not just a machine, makes final hire-or-fire calls.
-- Update your Employment Equity Plan to cover automated decision-making.
-
-If you suspect an AI tool screened you out unfairly, the Information Regulator (under POPIA) and the Commission for Employment Equity now both have a role. POPIA gives every South African the right to know what personal data an employer holds about them — [read our plain-English guide to what employers can and cannot access under POPIA](/blog/popia-can-your-employer-read-your-whatsapp).
+The Labour Relations Amendment Bill proposes to strengthen the presumption of employment (LRA s200A) and introduce protections for non-standard workers, including:
+- Uber, Bolt, Mr D, Checkers Sixty60, courier, and delivery drivers.
+- Rights to form/join unions, collective bargaining, and refer unfair dismissal disputes to the CCMA.
+- On-call/zero-hour workers: guaranteed minimum pay and reasonable advance notice for shifts.
 
 ---
 
-## 6. PTSD as an occupational disease under COIDA
+## 5. AI in recruitment and HR: proposed liability for algorithmic bias
 
-The **Compensation for Occupational Injuries and Diseases Act (COIDA)** has long covered physical injuries at work. Mental health was the gap.
+The Bills reinforce employer liability under the Employment Equity Act for unfair discrimination (on listed grounds) arising from automated decision-making tools used in recruitment, promotion, performance management, or termination.
 
-The Bill formally recognises **post-traumatic stress disorder (PTSD)** as a **compensable occupational disease** under COIDA.
+**Recommended steps for employers:**
+- Audit AI/HR tools for bias.
+- Maintain records of decision-making processes.
+- Ensure human oversight for final decisions.
+- Update Employment Equity Plans accordingly.
 
-### Who this changes everything for
+Under POPIA, employees also have the right to request what personal data an employer holds about them — [read our guide to what employers can and cannot access under POPIA](/blog/popia-can-your-employer-read-your-whatsapp).
 
-- Police officers
-- Paramedics, firefighters and emergency medical staff
-- Security industry workers
-- Bank tellers exposed to armed robberies
-- Healthcare workers exposed to repeated trauma
+---
 
-If your PTSD is medically diagnosed and reasonably linked to your work, you can lodge a COIDA claim for medical treatment, time off, and a lump-sum award where appropriate. Diagnosis must come from a registered psychiatrist or clinical psychologist, and the link to work must be documented.
+## 6. PTSD under COIDA (separate development)
 
-This is one of the most under-claimed areas of South African labour law. If it applies to you, do not let it lapse.
+**Note:** Recognition of post-traumatic stress disorder (PTSD) as a compensable occupational disease stems from the **Compensation for Occupational Injuries and Diseases Amendment Act 10 of 2022**, with key provisions brought into operation in early 2026 (phased: January–April 2026).
+
+This benefits workers in high-trauma roles (e.g., police, paramedics, firefighters, security, healthcare) where PTSD is medically diagnosed and linked to work.
 
 ---
 
 ## Action steps
 
-### If you are an employee
+**If you are an employee:**
+1. Check your earnings against the new R22,466.74 monthly threshold.
+2. Discuss parental leave plans with your employer under the current Van Wyk interim rules.
+3. Platform workers: keep detailed records of hours, shifts, and communications.
+4. For work-related PTSD: obtain a medical diagnosis and consider a COIDA claim.
+5. If retrenched: seek advice before accepting less than the current (or future proposed) severance entitlement. If you are also facing debt pressure, [know what debt collectors can and cannot legally do](/blog/you-cannot-be-arrested-for-debt) — your salary protections remain in force.
 
-1. Check your **payslip** — are you above or below R22,466.74? Know which protections you keep.
-2. If you are a parent, **plan your leave** under the new 4-month rule.
-3. If you drive for a platform, keep records: hours, shifts, deactivations, communications.
-4. If you suffer work-related psychological trauma, get a written diagnosis and ask about COIDA.
-5. If you are retrenched after the Bill commences, calculate **2 weeks per year**, not one. Do not sign anything for less without legal advice. If you are also dealing with creditors during retrenchment, [understand what debt collectors can and cannot legally do](/blog/you-cannot-be-arrested-for-debt) — your salary protections remain in force even while you are jobless.
-
-### If you are a small employer
-
-1. Update your **employment contracts** before 1 May 2026 — particularly clauses on overtime, parental leave, and severance.
-2. Review your **AI / HR software** for bias risk under the new EEA amendments.
-3. If you have **under 50 employees**, check whether the start-up bargaining-council exemption applies to you (it lasts 2 years).
-4. Train managers on the **new parental leave rules** — fathers, adoptive parents, and same-sex couples are all protected.
-5. Reclassify any "independent contractors" who, in substance, work like employees — especially platform-based or on-call workers.
+**If you are an employer:**
+1. Update contracts and policies for the new earnings threshold (immediate) and prepare for potential changes to parental leave and severance.
+2. Review AI/HR tools and independent contractor arrangements.
+3. Monitor the parliamentary process for the Bills and prepare draft policies.
+4. Small businesses (\<50 employees): note the proposed 2-year bargaining council exemption.
+5. Train HR and managers on upcoming obligations.
 
 ---
 
 ## Sources & further reading
 
-- [Polity — Labour Law Amendment Bill 2026: Legislative Developments and Economic Implications](https://www.polity.org.za/article/labour-law-amendment-bill-2026-legislative-developments-and-economic-implications-2026-03-02)
-- [Labourwise — New Earnings Threshold as from 1 May 2026](https://labourwise.co.za/labour-news-teazer/new-earnings-threshold-as-from-1-may-2026)
-- [BusinessTech — New laws for work hours coming to South Africa](https://businesstech.co.za/news/government/852511/new-laws-for-work-hours-coming-to-south-africa/)
-- DLA Piper Africa — South Africa Employment Law Update 2026
-- *Van Wyk and Others v Minister of Employment and Labour* (Constitutional Court, 2025) — the ruling behind the new parental leave framework
+- Department of Employment and Labour – Labour Law Amendment Bills (Feb 2026)
+- *Van Wyk and Others v Minister of Employment and Labour* (Constitutional Court, 2025)
+- Government Notice on BCEA earnings threshold (April 2026)
 
 ---
 
 ## Need help?
 
-The Labour Law Amendment Bill rewrites the rules for almost every workplace in South Africa. Whether you are an employee unsure of your new rights, or a small employer trying to update your contracts before 1 May 2026, AHS Law can guide you through it.
+Need tailored advice? Contact a labour law specialist or attorney for your specific situation. Laws can change during the legislative process.
 
 **[Contact AHS Law for a confidential consultation →](https://www.ahslaw.co.za/#contact)**

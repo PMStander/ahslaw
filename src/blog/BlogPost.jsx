@@ -1,5 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { getPost } from './posts'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -105,6 +106,7 @@ export default function BlogPost() {
 
         <div className="blog-content">
           <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
             components={{
               img: ({ src, alt }) => {
                 const filename = src ? src.split('/').pop() : ''

@@ -1,5 +1,5 @@
 import b1 from './content/B1-pie-act-locks.md?raw'
-// import b2 from './content/B2-labour-bill-2026.md?raw'
+import b2 from './content/B2-labour-bill-2026.md?raw'
 // import b3 from './content/B3-arrest-rights.md?raw'
 // import b4 from './content/B4-marital-regimes.md?raw'
 // import b5 from './content/B5-debt-myth.md?raw'
@@ -21,16 +21,16 @@ export const posts = [
     excerpt: 'Your landlord cannot remove you without a court order — no matter how many months rent you owe. The PIE Act is clear, and breaking it is a criminal offence.',
     content: stripFrontmatter(b1),
   },
-  // B2–B8 commented out — client reviewing one post at a time
-  // {
-  //   slug: 'labour-law-amendment-bill-2026',
-  //   title: "What the 2026 Labour Law Amendment Bill Means for You",
-  //   pillar: 'Labour',
-  //   hero: '/img/blog/B2-labour-bill-2026.png',
-  //   published: '2026-04-25',
-  //   excerpt: 'The 2026 Amendment Bill changes how fixed-term contracts, retrenchments, and remote work are regulated. Here is what employees and employers need to know now.',
-  //   content: stripFrontmatter(b2),
-  // },
+  {
+    slug: 'labour-law-amendment-bill-2026',
+    title: "What the 2026 Labour Law Amendment Bill *Proposes* for You",
+    pillar: 'Labour',
+    hero: '/img/blog/B2-labour-bill-2026.png',
+    published: '2026-05-06',
+    excerpt: 'The Labour Law Amendment Bills propose doubling severance pay, extending parental leave to all parents, and bringing gig workers into the formal labour system. Here is what the proposals mean for you.',
+    content: stripFrontmatter(b2),
+  },
+  // B3–B8 commented out — client reviewing one post at a time
   // {
   //   slug: 'your-rights-when-arrested-south-africa',
   //   title: "Your Rights When Arrested in South Africa — A 5-Minute Guide",
