@@ -14,14 +14,11 @@ hero_image_prompt: |
   negative space on the right for headline overlay,
   ultra-sharp details, photorealistic, 3:2 aspect ratio,
   no text, no logos, no watermarks
-word_count: 1509
+word_count: 1450
 published: 2026-04-25
 references:
   - "PIE Act 19 of 1998 — gov.za: https://www.gov.za/documents/latest"
   - "Constitution of the Republic of South Africa, 1996 (Section 26) — SAFLII: https://www.saflii.org/"
-  - "SD Law — Evictions in South Africa: https://www.sdlaw.co.za/evictions-south-africa/"
-  - "PM Attorneys — 2026 Eviction Case Law: https://www.pmattorneys.co.za/latest-eviction-case-law-in-south-africa-2026-key-updates/"
-  - "STBB — Eviction and the PIE Act: https://stbb.co.za/blog-eviction-and-south-african-law-what-landlords-should-know-about-the-pie-act/"
 ---
 
 # Can Your Landlord Really Change the Locks? The PIE Act Explained
@@ -38,31 +35,31 @@ If you have ever fallen behind on rent, you have probably heard it.
 
 "They will cut the water and the lights until you leave."
 
-It is one of the most repeated bits of bad advice in South Africa. Tenants believe it and panic. Landlords believe it and act on it. Both end up in serious trouble — but only one of them ends up in handcuffs.
+It is one of the most repeated bits of bad advice in South Africa. Tenants believe it and panic. Landlords believe it and act on it. Both end up in serious trouble — but only one of them may end up in handcuffs.
 
-The truth is simple. In South Africa, your landlord cannot remove you from your home without a **court order**. Not for unpaid rent. Not for a broken lease. Not for any reason at all.
+The truth is simple. In South Africa, your landlord cannot remove you from your home without a court order. Not for unpaid rent. Not for a breach of lease. Not when a lease is terminated. Not for any reason at all.
 
 ## The Law — In Plain English
 
 Two pieces of law sit at the heart of this.
 
-**Section 26(3) of the Constitution** says no one may be evicted from their home, or have their home demolished, without an order of court made after considering all the relevant circumstances.
+**Section 26(3) of the Constitution** confirms that no one may be evicted from their home, or have their home demolished, without an order of court made after considering all the relevant circumstances.
 
-That is the foundation. Your home is constitutionally protected. Even if you are behind on rent. Even if your lease has ended. Even if you have no legal right to be there at all.
+That is the foundation. Your home is constitutionally protected. Even if you are behind on rent. Even if your lease has terminated or expired. Even if you have no contractual right to be there at all.
 
 The second piece of law fills in the detail. It is the **Prevention of Illegal Eviction from and Unlawful Occupation of Land Act 19 of 1998** — known to everyone as the **PIE Act**.
 
 The PIE Act does three things:
 
 1. It tells landlords exactly how to evict someone lawfully.
-2. It makes any other method of eviction a **criminal offence**.
-3. It tells the courts to weigh up whether an eviction is "just and equitable" before signing the order.
+2. It makes any other method of eviction unlawful and a criminal offence.
+3. It tells the courts to weigh up whether an eviction is "just and equitable" before granting eviction orders.
 
 That last word matters. "Just and equitable" means the court must look at your circumstances — not just the landlord's. Are you elderly? A single parent? A child? Disabled? Pregnant? Do you have anywhere else to go? The court must consider all of it.
 
 The PIE Act applies whether you signed a lease or not. It protects tenants whose leases have ended, family members staying with permission, and even people who occupied the property without any agreement at all. The protection is about the **roof over your head**, not the piece of paper underneath it. That is why the Act uses the broader phrase "unlawful occupier" rather than "tenant" — Parliament wanted the safety net to catch everyone living in a home, not just those with a current contract.
 
-The Act also makes it clear that the **owner of the land** is not the only person who has to follow the rules. Anyone "in charge" of the property — a managing agent, a body corporate, a trustee, a family member acting for the owner — is bound by the same restrictions and faces the same criminal penalties.
+The Act also makes it clear that the **owner of the land** is not the only person who has to follow the rules. Anyone "in charge" of the property — a managing agent, a body corporate, a trustee, a family member acting for the owner — is bound by the same restrictions and faces the same criminal and other penalties.
 
 ## What You Can Do as a Tenant
 
@@ -93,7 +90,7 @@ A landlord may **not**:
 
 It does not matter how many months you are behind. It does not matter if your lease ended six months ago. The landlord still has to go to court. There is no shortcut, no exception, no "but the rent is unpaid" loophole. And if a debt collector or landlord's agent is also threatening you with arrest over the arrears, know that [you cannot be arrested for civil debt in South Africa](/blog/you-cannot-be-arrested-for-debt) — that threat is equally unlawful.
 
-The 2025 amendments to the Rental Housing Act tightened these protections further. Landlords now also have stronger duties around habitability — meaning a property that has its power cut by the owner is not just a criminal eviction, it is a breach of the Act.
+The 2025 amendments to the Rental Housing Act tightened these protections further. Landlords now also have stronger duties around habitability — meaning a property that has its power cut by the owner is not just a criminal offence, it is a breach of the Act.
 
 ## What to Do if It Goes Wrong
 
@@ -109,13 +106,11 @@ If your landlord has already changed the locks, cut your services, or removed yo
 
 **Step 5 — Claim damages.** Once back in the property, you can sue for any loss caused — damaged or stolen belongings, alternative accommodation costs, missed work, emotional distress. Keep all your receipts.
 
-A real, lawful eviction in South Africa typically takes **four to eight weeks** even when uncontested, and three to six months when vulnerable people are involved. A landlord who tries to do it in an afternoon by changing a lock is not saving time. They are buying themselves a criminal record and a damages claim.
-
 ## A Note for Landlords Reading This
 
 If you are a landlord with a tenant who is months behind, your frustration is real. You are paying a bond, rates, and levies on a property that is not paying for itself. The law understands that. It just insists you use the right process.
 
-The right process is faster than you think. A Section 4 PIE application is a standard, well-trodden path. With proper paperwork, sheriff's service, and a tenant who does not oppose, you can have a lawful eviction order in six to eight weeks. That is not much longer than the time you would spend defending a criminal case for changing the locks.
+The right process is faster than you think. A Section 4 PIE application is a standard, well-trodden path. With proper paperwork, sheriff's service, and a tenant who does not oppose, you can have a lawful eviction order rather soon. It may be much sooner than the time you would spend defending a criminal case for changing the locks.
 
 Speak to an attorney **before** the lease breach becomes a crisis. Early action — proper written notices, accurate records of the arrears, an unbroken paper trail — is what wins evictions in court. Shortcuts are what lose them. And if you are also planning to sell or refinance the property, it is worth understanding [exactly what the property transfer process involves](/blog/property-transfer-explained-what-you-pay-why-it-takes-so-long) before you start.
 
@@ -123,9 +118,6 @@ Speak to an attorney **before** the lease breach becomes a crisis. Early action 
 
 - **PIE Act 19 of 1998** — full text on [gov.za](https://www.gov.za/documents/latest)
 - **Constitution of South Africa, Section 26** — via [SAFLII](https://www.saflii.org/)
-- **SD Law — Evictions in South Africa** — practical landlord and tenant guide: [sdlaw.co.za/evictions-south-africa](https://www.sdlaw.co.za/evictions-south-africa/)
-- **PM Attorneys — 2026 Eviction Case Law Update**: [pmattorneys.co.za](https://www.pmattorneys.co.za/latest-eviction-case-law-in-south-africa-2026-key-updates/)
-- **STBB — What Landlords Should Know About the PIE Act**: [stbb.co.za](https://stbb.co.za/blog-eviction-and-south-african-law-what-landlords-should-know-about-the-pie-act/)
 
 ---
 
