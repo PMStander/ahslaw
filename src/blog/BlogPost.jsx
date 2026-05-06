@@ -1,4 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { getPost } from './posts'
@@ -19,8 +20,21 @@ export default function BlogPost() {
     year: 'numeric', month: 'long', day: 'numeric',
   })
 
+  const canonicalUrl = `https://www.ahslaw.co.za/blog/${post.slug}`
+  const ogImage = `https://www.ahslaw.co.za${post.hero}`
+
   return (
     <div style={{ background: '#000', minHeight: '100vh' }}>
+      <Helmet>
+        <title>{post.title} | AH Stander &amp; Agenbag Inc</title>
+        <meta name="description" content={post.excerpt} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.excerpt} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={ogImage} />
+      </Helmet>
       <Navbar />
 
       {/* Hero */}
@@ -108,6 +122,8 @@ export default function BlogPost() {
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={{
+              // Suppress the H1 from markdown — the hero already renders the title
+              h1: () => null,
               img: ({ src, alt }) => {
                 const filename = src ? src.split('/').pop() : ''
                 const correctedSrc = `/img/blog/${filename}`

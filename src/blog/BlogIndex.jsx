@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import { posts } from './posts'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -19,6 +20,11 @@ const pillarColors = {
 export default function BlogIndex() {
   return (
     <div style={{ background: '#000', minHeight: '100vh' }}>
+      <Helmet>
+        <title>Legal Insight | AH Stander &amp; Agenbag Inc</title>
+        <meta name="description" content="Practical answers to the legal questions South Africans actually ask — written by lawyers, readable by everyone." />
+        <link rel="canonical" href="https://www.ahslaw.co.za/blog" />
+      </Helmet>
       <Navbar />
 
       {/* Header */}
