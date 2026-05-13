@@ -1,6 +1,6 @@
 import b1 from './content/B1-pie-act-locks.md?raw'
 import b2 from './content/B2-labour-bill-2026.md?raw'
-// import b3 from './content/B3-arrest-rights.md?raw'
+import b3 from './content/B3-arrest-rights.md?raw'
 // import b4 from './content/B4-marital-regimes.md?raw'
 // import b5 from './content/B5-debt-myth.md?raw'
 // import b6 from './content/B6-popia-whatsapp.md?raw'
@@ -30,16 +30,16 @@ export const posts = [
     excerpt: 'The Labour Law Amendment Bills propose doubling severance pay, extending parental leave to all parents, and bringing gig workers into the formal labour system. Here is what the proposals mean for you.',
     content: stripFrontmatter(b2),
   },
-  // B3–B8 commented out — client reviewing one post at a time
-  // {
-  //   slug: 'your-rights-when-arrested-south-africa',
-  //   title: "Your Rights When Arrested in South Africa — A 5-Minute Guide",
-  //   pillar: 'Criminal',
-  //   hero: '/img/blog/B3-arrest-rights.png',
-  //   published: '2026-04-25',
-  //   excerpt: 'Silence is not guilt. You have the right to remain silent, the right to a lawyer, and the right to be brought to court within 48 hours. Know them before you need them.',
-  //   content: stripFrontmatter(b3),
-  // },
+  {
+    slug: 'your-rights-when-arrested-south-africa',
+    title: "Your Rights When Arrested in South Africa — A 5-Minute Guide",
+    pillar: 'Criminal',
+    hero: '/img/blog/B3-arrest-rights.png',
+    published: '2026-04-25',
+    excerpt: 'Silence is not guilt. You have the right to remain silent, the right to a lawyer, and the right to be brought to court within 48 hours. Know them before you need them.',
+    content: stripFrontmatter(b3),
+  },
+  // B4–B8 commented out — client reviewing one post at a time
   // {
   //   slug: 'community-of-property-vs-accrual',
   //   title: "Community of Property vs Accrual — Which Actually Protects You?",
