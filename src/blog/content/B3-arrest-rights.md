@@ -4,7 +4,7 @@ slug: "your-rights-when-arrested-south-africa"
 pillar: "Criminal"
 hero_image: "../images/blog/B3-arrest-rights.png"
 word_count: 1224
-published: "2026-04-25"
+published: "2026-05-13"
 references:
   - title: "Criminal Defence Attorney — Your Rights When Arrested"
     url: "https://criminaldefenceattorney.co.za/2025/03/17/your-rights-when-arrested/"

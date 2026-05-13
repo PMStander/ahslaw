@@ -35,7 +35,7 @@ export const posts = [
     title: "Your Rights When Arrested in South Africa — A 5-Minute Guide",
     pillar: 'Criminal',
     hero: '/img/blog/B3-arrest-rights.png',
-    published: '2026-04-25',
+    published: '2026-05-13',
     excerpt: 'Silence is not guilt. You have the right to remain silent, the right to a lawyer, and the right to be brought to court within 48 hours. Know them before you need them.',
     content: stripFrontmatter(b3),
   },
