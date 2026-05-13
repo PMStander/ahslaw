@@ -32,7 +32,7 @@ export const posts = [
   },
   {
     slug: 'your-rights-when-arrested-south-africa',
-    title: "Your Rights When Arrested in South Africa — A 5-Minute Guide",
+    title: "Your Rights When Arrested in South Africa — A Practical Guide",
     pillar: 'Criminal',
     hero: '/img/blog/B3-arrest-rights.png',
     published: '2026-05-13',
