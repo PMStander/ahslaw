@@ -22,6 +22,30 @@ export default function BlogPost() {
 
   const canonicalUrl = `https://www.ahslaw.co.za/blog/${post.slug}`
   const ogImage = `https://www.ahslaw.co.za${post.hero}`
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    image: ogImage,
+    datePublished: post.published,
+    dateModified: post.updated || post.published,
+    mainEntityOfPage: canonicalUrl,
+    author: {
+      '@type': 'Organization',
+      name: 'AH Stander & Agenbag Inc',
+      url: 'https://www.ahslaw.co.za/',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'AH Stander & Agenbag Inc',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.ahslaw.co.za/img/logo.png',
+      },
+    },
+    about: post.pillar,
+  }
 
   return (
     <div style={{ background: '#000', minHeight: '100vh' }}>
@@ -34,6 +58,9 @@ export default function BlogPost() {
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="article" />
         <meta property="og:image" content={ogImage} />
+        <script type="application/ld+json">
+          {JSON.stringify(articleSchema)}
+        </script>
       </Helmet>
       <Navbar />
 
