@@ -105,13 +105,15 @@ function Home() {
         </script>
       </Helmet>
       <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Process />
-      <Testimonials />
-      <Team />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Process />
+        <Testimonials />
+        <Team />
+        <Contact />
+      </main>
       <Footer />
     </div>
   )

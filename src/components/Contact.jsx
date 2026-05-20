@@ -338,7 +338,7 @@ export default function Contact() {
                 </a>
                 <p
                   style={{
-                    color: 'rgba(255,255,255,0.4)',
+                    color: 'rgba(255,255,255,0.68)',
                     fontFamily: 'Open Sans, sans-serif',
                     fontSize: '12px',
                     margin: '10px 0 0 0',

@@ -114,7 +114,7 @@ export default function About() {
                   paddingLeft: '24px',
                 }}
               >
-                <h4
+                <h3
                   style={{
                     color: '#fff',
                     fontFamily: 'Raleway, sans-serif',
@@ -125,7 +125,7 @@ export default function About() {
                   }}
                 >
                   {item.title}
-                </h4>
+                </h3>
                 <p
                   style={{
                     color: 'rgba(255,255,255,0.55)',

@@ -16,14 +16,22 @@ export default function Footer() {
     >
       {/* Logo */}
       <a href="/#home" style={{ textDecoration: 'none' }}>
-        <img src="/img/logo.png" alt="AH Stander & Agenbag Inc." style={{ height: '40px', width: 'auto' }} />
+        <img
+          src="/img/logo.png"
+          alt="AH Stander & Agenbag Inc."
+          width="998"
+          height="282"
+          loading="lazy"
+          decoding="async"
+          style={{ height: '40px', width: 'auto' }}
+        />
       </a>
 
       {/* Copyright */}
       <div style={{ textAlign: 'center' }}>
         <p
           style={{
-            color: 'rgba(255,255,255,0.3)',
+            color: 'rgba(255,255,255,0.62)',
             fontFamily: 'Open Sans, sans-serif',
             fontSize: '12px',
             margin: '0 0 6px',
@@ -36,7 +44,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            color: 'rgba(255,255,255,0.2)',
+            color: 'rgba(255,255,255,0.58)',
             fontFamily: 'Open Sans, sans-serif',
             fontSize: '11px',
             textDecoration: 'none',
@@ -44,7 +52,7 @@ export default function Footer() {
             transition: 'color 0.2s',
           }}
           onMouseEnter={e => (e.currentTarget.style.color = '#c9a25a')}
-          onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.2)')}
+          onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.58)')}
         >
           Site managed by Partners in Biz
         </a>
