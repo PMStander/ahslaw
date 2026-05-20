@@ -1,7 +1,7 @@
 import b1 from './content/B1-pie-act-locks.md?raw'
 import b2 from './content/B2-labour-bill-2026.md?raw'
 import b3 from './content/B3-arrest-rights.md?raw'
-// import b4 from './content/B4-marital-regimes.md?raw'
+import b4 from './content/B4-marital-regimes.md?raw'
 // import b5 from './content/B5-debt-myth.md?raw'
 // import b6 from './content/B6-popia-whatsapp.md?raw'
 // import b7 from './content/B7-conveyancing.md?raw'
@@ -39,16 +39,16 @@ export const posts = [
     excerpt: 'Silence is not guilt. You have the right to remain silent, the right to a lawyer, and the right to be brought to court within 48 hours. Know them before you need them.',
     content: stripFrontmatter(b3),
   },
-  // B4–B8 commented out — client reviewing one post at a time
-  // {
-  //   slug: 'community-of-property-vs-accrual',
-  //   title: "Community of Property vs Accrual — Which Actually Protects You?",
-  //   pillar: 'Family',
-  //   hero: '/img/blog/B4-marital-regimes.png',
-  //   published: '2026-04-25',
-  //   excerpt: 'The marital regime you choose at the altar follows you into every business deal, debt, and divorce. Most couples pick the default without knowing what it means.',
-  //   content: stripFrontmatter(b4),
-  // },
+  {
+    slug: 'community-of-property-vs-accrual',
+    title: "Community of Property vs Accrual: Which Marital Regime Actually Protects You?",
+    pillar: 'Family',
+    hero: '/img/blog/B4-marital-regimes.png',
+    published: '2026-05-20',
+    excerpt: 'The marital regime you choose decides whose debts you are stuck with, whether the business you built stays yours, and how everything gets divided if the marriage ends.',
+    content: stripFrontmatter(b4),
+  },
+  // B5–B8 commented out — client reviewing one post at a time
   // {
   //   slug: 'you-cannot-be-arrested-for-debt',
   //   title: "You Cannot Be Arrested for Debt. Here's What Actually Happens",
