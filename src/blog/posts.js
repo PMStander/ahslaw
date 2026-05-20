@@ -44,6 +44,7 @@ export const posts = [
     title: "Community of Property vs Accrual: Which Marital Regime Actually Protects You?",
     pillar: 'Family',
     hero: '/img/blog/B4-marital-regimes.png',
+    heroPosition: 'center 80%',
     published: '2026-05-20',
     excerpt: 'The marital regime you choose decides whose debts you are stuck with, whether the business you built stays yours, and how everything gets divided if the marriage ends.',
     content: stripFrontmatter(b4),

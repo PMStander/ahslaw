@@ -42,7 +42,13 @@ export default function BlogPost() {
         <img
           src={post.hero}
           alt={post.title}
-          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            objectPosition: post.heroPosition || 'center center',
+            display: 'block',
+          }}
         />
         <div style={{
           position: 'absolute', inset: 0,
