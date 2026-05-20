@@ -40,7 +40,15 @@ export default function Navbar() {
     >
       {/* Logo */}
       <a href="/#home" style={{ textDecoration: 'none', lineHeight: 1 }}>
-        <img src="/img/logo.png" alt="AH Stander & Agenbag Inc." style={{ height: '50px', width: 'auto' }} />
+        <img
+          src="/img/logo.png"
+          alt="AH Stander & Agenbag Inc."
+          width="998"
+          height="282"
+          fetchPriority="high"
+          decoding="async"
+          style={{ height: '50px', width: 'auto' }}
+        />
       </a>
 
       {/* Desktop Nav */}

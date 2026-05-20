@@ -5,6 +5,47 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/raleway-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('/fonts/open-sans-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/lato-300-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/lato-400-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/lato-700-latin.woff2') format('woff2');
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -37,6 +78,10 @@ ul {
   list-style: none;
 }
 
+.hero-mobile-space {
+  display: none;
+}
+
 /* Responsive: hide desktop nav on mobile */
 @media (max-width: 768px) {
   .nav-desktop {
@@ -44,5 +89,27 @@ ul {
   }
   .nav-hamburger {
     display: block !important;
+  }
+  .hero-content {
+    max-width: 100% !important;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+  .hero-kicker {
+    max-width: 300px;
+    font-size: 11px !important;
+    letter-spacing: 3px !important;
+    line-height: 1.8;
+  }
+  .hero-title {
+    max-width: 326px;
+    font-size: 34px !important;
+    line-height: 1.26 !important;
+  }
+  .hero-mobile-space {
+    display: inline;
+  }
+  .hero-title br {
+    display: none;
   }
 }

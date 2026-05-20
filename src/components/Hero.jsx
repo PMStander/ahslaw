@@ -87,6 +87,7 @@ export default function Hero() {
 
       {/* Content */}
       <div
+        className="hero-content"
         style={{
           position: 'relative',
           zIndex: 1,
@@ -96,6 +97,7 @@ export default function Hero() {
         }}
       >
         <p
+          className="hero-kicker"
           style={{
             color: '#d2ae6d',
             fontFamily: 'Lato, sans-serif',
@@ -110,6 +112,7 @@ export default function Hero() {
         </p>
 
         <h1
+          className="hero-title"
           style={{
             color: '#fff',
             fontFamily: 'Raleway, sans-serif',
@@ -120,7 +123,7 @@ export default function Hero() {
             margin: '0 0 40px 0',
           }}
         >
-          Legal advice and<br />expertise you can trust
+          Legal advice and<br /><span className="hero-mobile-space"> </span>expertise you can trust
         </h1>
 
         <a

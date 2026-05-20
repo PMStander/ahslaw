@@ -119,6 +119,10 @@ function TeamCard({ member }) {
             <img
               src={member.photo}
               alt={member.name}
+              width="880"
+              height="1168"
+              loading="lazy"
+              decoding="async"
               style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }}
             />
           ) : (
@@ -183,7 +187,7 @@ function TeamCard({ member }) {
           >
             {member.role}
           </p>
-          <h4
+          <h3
             style={{
               color: '#fff',
               fontFamily: 'Raleway, sans-serif',
@@ -194,7 +198,7 @@ function TeamCard({ member }) {
             }}
           >
             {member.name}
-          </h4>
+          </h3>
           <div
             style={{
               width: '30px',
@@ -205,7 +209,7 @@ function TeamCard({ member }) {
           />
           <p
             style={{
-              color: 'rgba(255,255,255,0.45)',
+              color: 'rgba(255,255,255,0.72)',
               fontFamily: 'Open Sans, sans-serif',
               fontSize: '12px',
               lineHeight: '1.7',
@@ -277,7 +281,7 @@ export default function Team() {
         {/* Hint */}
         <p
           style={{
-            color: 'rgba(255,255,255,0.25)',
+            color: 'rgba(255,255,255,0.62)',
             fontFamily: 'Open Sans, sans-serif',
             fontSize: '12px',
             textAlign: 'center',

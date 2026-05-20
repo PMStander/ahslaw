@@ -3,6 +3,8 @@ const services = [
     id: 'civil-litigation',
     title: 'Civil Litigation',
     icon: '/img/litigation.png',
+    iconWidth: 150,
+    iconHeight: 150,
     description:
       'We have a wide variety of experience in the following areas which include but are not exclusive to debt collection, evictions, protection orders, divorce, maintenance, guardianship, custody, adoption, and other civil matters.',
     items: [
@@ -19,6 +21,8 @@ const services = [
     id: 'family-law',
     title: 'Family Law',
     icon: '/img/family-law.png',
+    iconWidth: 150,
+    iconHeight: 150,
     description:
       'Our Family Law practice covers all aspects of matrimonial and family matters. We provide compassionate, professional guidance through some of life\'s most challenging legal situations.',
     items: [
@@ -35,6 +39,8 @@ const services = [
     id: 'criminal-law',
     title: 'Criminal Defense',
     icon: '/img/criminal-law.png',
+    iconWidth: 150,
+    iconHeight: 150,
     description:
       'We offer a wide array of services which include but are not exclusive to assistance with bail applications, court bail, police bail, representation at trial, appeals, reviews, and all matters relating to criminal proceedings.',
     items: [
@@ -73,7 +79,15 @@ function ServiceCard({ service }) {
       }}
     >
       <div style={{ marginBottom: '24px' }}>
-        <img src={service.icon} alt={service.title} style={{ width: '64px', height: '64px', objectFit: 'contain' }} />
+        <img
+          src={service.icon}
+          alt={service.title}
+          width={service.iconWidth}
+          height={service.iconHeight}
+          loading="lazy"
+          decoding="async"
+          style={{ width: '64px', height: '64px', objectFit: 'contain' }}
+        />
       </div>
       <h3
         style={{
