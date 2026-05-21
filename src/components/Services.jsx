@@ -52,6 +52,7 @@ const services = [
       'Assault & Violence',
       'White-collar Crime',
     ],
+    link: '/services/criminal-lawyer-pretoria-bail',
   },
 ]
 
@@ -133,6 +134,22 @@ function ServiceCard({ service }) {
           </li>
         ))}
       </ul>
+      {service.link && (
+        <a
+          href={service.link}
+          style={{
+            color: '#d2ae6d',
+            fontFamily: 'Lato, sans-serif',
+            fontSize: '11px',
+            letterSpacing: '2px',
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            marginTop: '24px',
+          }}
+        >
+          Pretoria bail help →
+        </a>
+      )}
     </div>
   )
 }

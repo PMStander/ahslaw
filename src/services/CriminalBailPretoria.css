@@ -1,0 +1,12 @@
+@media (max-width: 780px) {
+  .service-location-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .service-location-grid {
+    gap: 22px !important;
+  }
+}
