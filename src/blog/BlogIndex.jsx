@@ -7,16 +7,6 @@ import Footer from '../components/Footer'
 const GOLD = '#c9a25a'
 const GOLD_LIGHT = '#d2ae6d'
 
-const pillarColors = {
-  'Eviction & Tenant Rights': '#c9a25a',
-  'Labour': '#c9a25a',
-  'Criminal': '#c9a25a',
-  'Family': '#c9a25a',
-  'Debt': '#c9a25a',
-  'POPIA': '#c9a25a',
-  'Property': '#c9a25a',
-}
-
 export default function BlogIndex() {
   return (
     <div style={{ background: '#000', minHeight: '100vh' }}>

@@ -12,6 +12,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import BlogIndex from './blog/BlogIndex'
 import BlogPost from './blog/BlogPost'
+import CriminalBailPretoria from './services/CriminalBailPretoria'
 
 const legalServiceSchema = {
   '@context': 'https://schema.org',
@@ -126,6 +127,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<BlogIndex />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/services/criminal-lawyer-pretoria-bail" element={<CriminalBailPretoria />} />
       </Routes>
       <Analytics />
     </>
