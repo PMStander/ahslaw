@@ -16,6 +16,7 @@ import CriminalBailPretoria from './services/CriminalBailPretoria'
 import DivorceLawyerPretoriaEast from './services/DivorceLawyerPretoriaEast'
 import CivilLitigationPretoria from './services/CivilLitigationPretoria'
 import EvictionAttorneyPretoria from './services/EvictionAttorneyPretoria'
+import ConveyancingAttorneyPretoria from './services/ConveyancingAttorneyPretoria'
 
 const legalServiceSchema = {
   '@context': 'https://schema.org',
@@ -134,6 +135,7 @@ function App() {
         <Route path="/services/divorce-lawyer-pretoria-east" element={<DivorceLawyerPretoriaEast />} />
         <Route path="/services/civil-litigation-attorney-pretoria" element={<CivilLitigationPretoria />} />
         <Route path="/services/eviction-attorney-pretoria" element={<EvictionAttorneyPretoria />} />
+        <Route path="/services/conveyancing-attorney-pretoria" element={<ConveyancingAttorneyPretoria />} />
       </Routes>
       <Analytics />
     </>

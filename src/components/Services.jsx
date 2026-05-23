@@ -23,6 +23,10 @@ const services = [
         href: '/services/eviction-attorney-pretoria',
         label: 'Pretoria eviction help →',
       },
+      {
+        href: '/services/conveyancing-attorney-pretoria',
+        label: 'Pretoria property transfer help →',
+      },
     ],
   },
   {
