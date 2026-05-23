@@ -16,6 +16,14 @@ const services = [
       'Adoption',
       'Appeals & Reviews',
     ],
+    link: '/services/civil-litigation-attorney-pretoria',
+    linkLabel: 'Pretoria civil litigation help →',
+    secondaryLinks: [
+      {
+        href: '/services/eviction-attorney-pretoria',
+        label: 'Pretoria eviction help →',
+      },
+    ],
   },
   {
     id: 'family-law',
@@ -152,6 +160,23 @@ function ServiceCard({ service }) {
           {service.linkLabel || 'Pretoria bail help →'}
         </a>
       )}
+      {service.secondaryLinks?.map(link => (
+        <a
+          key={link.href}
+          href={link.href}
+          style={{
+            color: '#d2ae6d',
+            fontFamily: 'Lato, sans-serif',
+            fontSize: '11px',
+            letterSpacing: '2px',
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            marginTop: '12px',
+          }}
+        >
+          {link.label}
+        </a>
+      ))}
     </div>
   )
 }
