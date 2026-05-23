@@ -34,6 +34,8 @@ const services = [
       'Ante-nuptial Contracts',
       'Customary Marriages',
     ],
+    link: '/services/divorce-lawyer-pretoria-east',
+    linkLabel: 'Pretoria East divorce help →',
   },
   {
     id: 'criminal-law',
@@ -147,7 +149,7 @@ function ServiceCard({ service }) {
             marginTop: '24px',
           }}
         >
-          Pretoria bail help →
+          {service.linkLabel || 'Pretoria bail help →'}
         </a>
       )}
     </div>
