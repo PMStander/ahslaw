@@ -206,7 +206,8 @@ export default function DivorceLawyerPretoriaEast() {
               </p>
               <p style={bodyTextStyle}>
                 AHS Law assists with uncontested and opposed divorce, settlement agreements, parenting
-                arrangements, maintenance, domestic and family-related disputes.
+                arrangements, maintenance, domestic and family-related disputes, and the property
+                consequences of marriage in community of property or out of community with accrual.
                 For a deeper plain-language explanation, read the guide to{' '}
                 <Link to="/blog/community-of-property-vs-accrual" style={textLinkStyle}>community of property vs accrual</Link>.
               </p>

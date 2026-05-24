@@ -60,7 +60,7 @@ This Section 129 notice gives you **10 business days** to do one of three things
 
 - Pay the arrears, or
 - Contact the credit provider to renegotiate the terms, or
-- Apply for debt review
+- Apply for debt counselling (debt review)
 
 Ignore this notice and you lose powerful protection. The creditor can then issue summons. Read every Section 129 letter the day it arrives. If the address is wrong or the amount is disputed, write back immediately. Keep a copy.
 
@@ -104,7 +104,7 @@ Instead, say: "I do not acknowledge this debt. Please send me proof in writing."
 
 ## Debt Review — The Legal Lifeline
 
-If you genuinely cannot pay your debts, the National Credit Act gives you a structured way out called **debt review**.
+If you genuinely cannot pay your debts, the National Credit Act gives you a structured way out called **debt review** (or debt counselling).
 
 Here is what it does:
 
