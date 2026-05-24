@@ -108,9 +108,9 @@ Under POPIA, employees also have the right to request what personal data an empl
 
 ## 6. PTSD under COIDA (separate development)
 
-**Note:** Recognition of post-traumatic stress disorder (PTSD) as a compensable occupational disease stems from the **Compensation for Occupational Injuries and Diseases Amendment Act 10 of 2022**, with key provisions brought into operation in early 2026 (phased: January–April 2026).
+**Note:** Recognition of PTSD as a compensable occupational disease stems from the **Compensation for Occupational Injuries and Diseases Amendment Act 10 of 2022**, with key provisions brought into operation in early 2026 (phased: January–April 2026).
 
-This benefits workers in high-trauma roles (e.g., police, paramedics, firefighters, security, healthcare) where PTSD is medically diagnosed and linked to work.
+This benefits workers in high-risk roles (e.g., police, paramedics, firefighters, security, healthcare) where PTSD is medically diagnosed and linked to work.
 
 ---
 
