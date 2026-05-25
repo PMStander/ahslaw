@@ -3,6 +3,26 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
+    {
+      "source": "/services/criminal-lawyer-pretoria-bail",
+      "destination": "/services/criminal-lawyer-pretoria-bail/index.html"
+    },
+    {
+      "source": "/services/divorce-lawyer-pretoria-east",
+      "destination": "/services/divorce-lawyer-pretoria-east/index.html"
+    },
+    {
+      "source": "/services/civil-litigation-attorney-pretoria",
+      "destination": "/services/civil-litigation-attorney-pretoria/index.html"
+    },
+    {
+      "source": "/services/eviction-attorney-pretoria",
+      "destination": "/services/eviction-attorney-pretoria/index.html"
+    },
+    {
+      "source": "/services/conveyancing-attorney-pretoria",
+      "destination": "/services/conveyancing-attorney-pretoria/index.html"
+    },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
