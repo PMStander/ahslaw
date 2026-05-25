@@ -13,6 +13,10 @@ import Footer from './components/Footer'
 import BlogIndex from './blog/BlogIndex'
 import BlogPost from './blog/BlogPost'
 import CriminalBailPretoria from './services/CriminalBailPretoria'
+import DivorceLawyerPretoriaEast from './services/DivorceLawyerPretoriaEast'
+import CivilLitigationPretoria from './services/CivilLitigationPretoria'
+import EvictionAttorneyPretoria from './services/EvictionAttorneyPretoria'
+import ConveyancingAttorneyPretoria from './services/ConveyancingAttorneyPretoria'
 
 const legalServiceSchema = {
   '@context': 'https://schema.org',
@@ -128,6 +132,10 @@ function App() {
         <Route path="/blog" element={<BlogIndex />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/services/criminal-lawyer-pretoria-bail" element={<CriminalBailPretoria />} />
+        <Route path="/services/divorce-lawyer-pretoria-east" element={<DivorceLawyerPretoriaEast />} />
+        <Route path="/services/civil-litigation-attorney-pretoria" element={<CivilLitigationPretoria />} />
+        <Route path="/services/eviction-attorney-pretoria" element={<EvictionAttorneyPretoria />} />
+        <Route path="/services/conveyancing-attorney-pretoria" element={<ConveyancingAttorneyPretoria />} />
       </Routes>
       <Analytics />
     </>

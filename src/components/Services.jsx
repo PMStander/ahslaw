@@ -16,6 +16,18 @@ const services = [
       'Adoption',
       'Appeals & Reviews',
     ],
+    link: '/services/civil-litigation-attorney-pretoria',
+    linkLabel: 'Pretoria civil litigation help →',
+    secondaryLinks: [
+      {
+        href: '/services/eviction-attorney-pretoria',
+        label: 'Pretoria eviction help →',
+      },
+      {
+        href: '/services/conveyancing-attorney-pretoria',
+        label: 'Pretoria property transfer help →',
+      },
+    ],
   },
   {
     id: 'family-law',
@@ -34,6 +46,8 @@ const services = [
       'Ante-nuptial Contracts',
       'Customary Marriages',
     ],
+    link: '/services/divorce-lawyer-pretoria-east',
+    linkLabel: 'Pretoria East divorce help →',
   },
   {
     id: 'criminal-law',
@@ -147,9 +161,26 @@ function ServiceCard({ service }) {
             marginTop: '24px',
           }}
         >
-          Pretoria bail help →
+          {service.linkLabel || 'Pretoria bail help →'}
         </a>
       )}
+      {service.secondaryLinks?.map(link => (
+        <a
+          key={link.href}
+          href={link.href}
+          style={{
+            color: '#d2ae6d',
+            fontFamily: 'Lato, sans-serif',
+            fontSize: '11px',
+            letterSpacing: '2px',
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            marginTop: '12px',
+          }}
+        >
+          {link.label}
+        </a>
+      ))}
     </div>
   )
 }
