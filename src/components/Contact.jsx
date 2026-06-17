@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Contact() {
+  const navigate = useNavigate()
   const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' })
-  const [status, setStatus] = useState('idle') // idle | sending | success | error
+  const [status, setStatus] = useState('idle') // idle | sending | error
   const [errorMsg, setErrorMsg] = useState('')
 
   function handleChange(e) {
@@ -21,8 +23,7 @@ export default function Contact() {
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Something went wrong.')
-      setStatus('success')
-      setForm({ name: '', email: '', phone: '', message: '' })
+      navigate('/thank-you')
     } catch (err) {
       setStatus('error')
       setErrorMsg(err.message)
@@ -87,57 +88,7 @@ export default function Contact() {
               Send us a message
             </h3>
 
-            {status === 'success' ? (
-              <div
-                style={{
-                  background: 'rgba(210,174,109,0.08)',
-                  border: '1px solid rgba(210,174,109,0.4)',
-                  borderRadius: '4px',
-                  padding: '32px',
-                  textAlign: 'center',
-                }}
-              >
-                <p
-                  style={{
-                    color: '#d2ae6d',
-                    fontFamily: 'Raleway, sans-serif',
-                    fontSize: '16px',
-                    fontWeight: 700,
-                    marginBottom: '8px',
-                  }}
-                >
-                  Message Sent
-                </p>
-                <p
-                  style={{
-                    color: 'rgba(255,255,255,0.6)',
-                    fontFamily: 'Open Sans, sans-serif',
-                    fontSize: '13px',
-                    margin: '0 0 24px 0',
-                  }}
-                >
-                  Thank you for reaching out. We will be in touch shortly.
-                </p>
-                <button
-                  onClick={() => setStatus('idle')}
-                  style={{
-                    background: 'transparent',
-                    border: '1px solid rgba(210,174,109,0.4)',
-                    color: '#d2ae6d',
-                    fontFamily: 'Lato, sans-serif',
-                    fontSize: '11px',
-                    fontWeight: 700,
-                    letterSpacing: '2px',
-                    textTransform: 'uppercase',
-                    padding: '10px 24px',
-                    borderRadius: '40px',
-                    cursor: 'pointer',
-                  }}
-                >
-                  Send Another
-                </button>
-              </div>
-            ) : (
+            {(
               <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 {[
                   { id: 'name', label: 'Full Name', type: 'text', placeholder: 'Your full name', required: true },

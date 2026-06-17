@@ -13,6 +13,7 @@ import Footer from './components/Footer'
 import BlogIndex from './blog/BlogIndex'
 import BlogPost from './blog/BlogPost'
 import CriminalBailPretoria from './services/CriminalBailPretoria'
+import ThankYou from './pages/ThankYou'
 import DivorceLawyerPretoriaEast from './services/DivorceLawyerPretoriaEast'
 import CivilLitigationPretoria from './services/CivilLitigationPretoria'
 import EvictionAttorneyPretoria from './services/EvictionAttorneyPretoria'
@@ -136,6 +137,7 @@ function App() {
         <Route path="/services/civil-litigation-attorney-pretoria" element={<CivilLitigationPretoria />} />
         <Route path="/services/eviction-attorney-pretoria" element={<EvictionAttorneyPretoria />} />
         <Route path="/services/conveyancing-attorney-pretoria" element={<ConveyancingAttorneyPretoria />} />
+        <Route path="/thank-you" element={<ThankYou />} />
       </Routes>
       <Analytics />
     </>
