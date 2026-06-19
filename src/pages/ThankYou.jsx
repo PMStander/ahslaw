@@ -2,10 +2,17 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 
+const GOOGLE_ADS_FORM_CONVERSIONS = [
+  'AW-18244816230/PfaiCPLR4cAcEOaa5_tD',
+  'AW-18244816230/0UawCMjdkcAcEOaa5_tD',
+]
+
 export default function ThankYou() {
   useEffect(() => {
     if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'conversion', { send_to: 'AW-18244816230' })
+      GOOGLE_ADS_FORM_CONVERSIONS.forEach((sendTo) => {
+        window.gtag('event', 'conversion', { send_to: sendTo })
+      })
     }
   }, [])
 
