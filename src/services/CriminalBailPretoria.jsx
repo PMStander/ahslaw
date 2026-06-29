@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import TrackedPhoneLink from '../components/TrackedPhoneLink'
 import './CriminalBailPretoria.css'
 
 const GOLD = '#c9a25a'
@@ -163,7 +164,13 @@ export default function CriminalBailPretoria() {
               across Pretoria and Gauteng.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '14px', marginTop: '34px' }}>
-              <a href="tel:0798981454" style={primaryButtonStyle}>Call urgent bail line</a>
+              <TrackedPhoneLink
+                phone="0798981454"
+                label="Call urgent bail line on 079 898 1454"
+                style={primaryButtonStyle}
+              >
+                Call urgent bail line
+              </TrackedPhoneLink>
               <a href="/#contact" style={secondaryButtonStyle}>Send a confidential enquiry</a>
             </div>
           </div>
@@ -189,10 +196,29 @@ export default function CriminalBailPretoria() {
 
             <aside style={panelStyle}>
               <p style={panelLabelStyle}>Urgent bail numbers</p>
-              <a href="tel:0798981454" style={phoneStyle}>079 898 1454</a>
-              <a href="tel:0798404717" style={phoneStyle}>079 840 4717</a>
+              <TrackedPhoneLink
+                phone="0798981454"
+                label="Call urgent bail number 079 898 1454"
+                style={phoneStyle}
+              >
+                079 898 1454
+              </TrackedPhoneLink>
+              <TrackedPhoneLink
+                phone="0798404717"
+                label="Call urgent bail number 079 840 4717"
+                style={phoneStyle}
+              >
+                079 840 4717
+              </TrackedPhoneLink>
               <p style={{ ...bodyTextStyle, fontSize: '13px', marginTop: '18px' }}>
-                Office: <a href="tel:0129912875" style={textLinkStyle}>012 991 2875</a>
+                Office:{' '}
+                <TrackedPhoneLink
+                  phone="0129912875"
+                  label="Call AHS Law office on 012 991 2875"
+                  style={textLinkStyle}
+                >
+                  012 991 2875
+                </TrackedPhoneLink>
               </p>
             </aside>
           </div>
@@ -242,10 +268,27 @@ export default function CriminalBailPretoria() {
               Contact AHS Law with the facts you have. The team will help you understand the next
               step, the risks, and the documents or information needed.
             </p>
-            <a href="/#contact" style={primaryButtonStyle}>Contact AHS Law</a>
+            <TrackedPhoneLink
+              phone="0798981454"
+              label="Call AHS Law urgent bail line on 079 898 1454"
+              style={primaryButtonStyle}
+            >
+              Call urgent bail line
+            </TrackedPhoneLink>
           </div>
         </section>
       </main>
+
+      <div className="mobile-bail-call-bar" aria-label="Urgent bail call options">
+        <span className="mobile-bail-call-bar__text">Urgent bail help</span>
+        <TrackedPhoneLink
+          phone="0798981454"
+          label="Call urgent bail line on 079 898 1454"
+          className="mobile-bail-call-bar__button"
+        >
+          Call 079 898 1454
+        </TrackedPhoneLink>
+      </div>
 
       <Footer />
     </div>

@@ -10,3 +10,44 @@
     gap: 22px !important;
   }
 }
+
+.mobile-bail-call-bar {
+  display: none;
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  left: 14px;
+  z-index: 80;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: rgba(0, 0, 0, 0.94);
+  border: 1px solid rgba(201, 162, 90, 0.42);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
+  padding: 12px;
+}
+
+.mobile-bail-call-bar__text {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+.mobile-bail-call-bar__button {
+  flex: 0 0 auto;
+  background: #c9a25a;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 12px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 780px) {
+  .mobile-bail-call-bar {
+    display: flex;
+  }
+}
