@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import TrackedPhoneLink from './TrackedPhoneLink'
 
 export default function Contact() {
   const navigate = useNavigate()
@@ -238,7 +239,14 @@ export default function Contact() {
               <ContactBlock
                 label="Office"
                 lines={[
-                  <a key="phone" href="tel:0129912875" style={linkStyle}>012 991 2875</a>,
+                  <TrackedPhoneLink
+                    key="phone"
+                    phone="0129912875"
+                    label="Call AHS Law office on 012 991 2875"
+                    style={linkStyle}
+                  >
+                    012 991 2875
+                  </TrackedPhoneLink>,
                   <a key="email" href="mailto:rs@ahslaw.co.za" style={linkStyle}>rs@ahslaw.co.za</a>,
                 ]}
               />
@@ -281,12 +289,20 @@ export default function Contact() {
                 >
                   Urgent Bail Line
                 </p>
-                <a href="tel:0798981454" style={{ ...linkStyle, display: 'block', fontSize: '18px', marginBottom: '6px', fontWeight: 700 }}>
+                <TrackedPhoneLink
+                  phone="0798981454"
+                  label="Call urgent bail number 079 898 1454"
+                  style={{ ...linkStyle, display: 'block', fontSize: '18px', marginBottom: '6px', fontWeight: 700 }}
+                >
                   079 898 1454
-                </a>
-                <a href="tel:0798404717" style={{ ...linkStyle, display: 'block', fontSize: '18px', fontWeight: 700 }}>
+                </TrackedPhoneLink>
+                <TrackedPhoneLink
+                  phone="0798404717"
+                  label="Call urgent bail number 079 840 4717"
+                  style={{ ...linkStyle, display: 'block', fontSize: '18px', fontWeight: 700 }}
+                >
                   079 840 4717
-                </a>
+                </TrackedPhoneLink>
                 <p
                   style={{
                     color: 'rgba(255,255,255,0.68)',
