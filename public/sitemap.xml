@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://www.ahslaw.co.za/blog</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -33,6 +33,24 @@
   <url>
     <loc>https://www.ahslaw.co.za/blog/community-of-property-vs-accrual</loc>
     <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ahslaw.co.za/blog/schedule-6-bail-exceptional-circumstances</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ahslaw.co.za/blog/popia-workplace-privacy-whatsapp</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ahslaw.co.za/blog/unfair-dismissal-ccma-process</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

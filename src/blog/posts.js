@@ -2,6 +2,9 @@ import b1 from './content/B1-pie-act-locks.md?raw'
 import b2 from './content/B2-labour-bill-2026.md?raw'
 import b3 from './content/B3-arrest-rights.md?raw'
 import b4 from './content/B4-marital-regimes.md?raw'
+import b11 from './content/B11-schedule-6-bail.md?raw'
+import b12 from './content/B12-popia-and-workplace-privacy.md?raw'
+import b13 from './content/B13-unfair-dismissal-ccma.md?raw'
 // import b5 from './content/B5-debt-myth.md?raw'
 // import b6 from './content/B6-popia-whatsapp.md?raw'
 // import b7 from './content/B7-conveyancing.md?raw'
@@ -48,6 +51,33 @@ export const posts = [
     published: '2026-05-20',
     excerpt: 'The marital regime you choose decides whose debts you are stuck with, whether the business you built stays yours, and how everything gets divided if the marriage ends.',
     content: stripFrontmatter(b4),
+  },
+  {
+    slug: 'schedule-6-bail-exceptional-circumstances',
+    title: 'Schedule 6 Bail Applications: What “Exceptional Circumstances” Really Means',
+    pillar: 'Criminal Law',
+    hero: '/img/blog/B11-schedule-6-bail.png',
+    published: '2026-07-20',
+    excerpt: 'Schedule 6 bail starts from detention. The accused must prove exceptional circumstances that make release in the interests of justice.',
+    content: stripFrontmatter(b11),
+  },
+  {
+    slug: 'popia-workplace-privacy-whatsapp',
+    title: 'POPIA and Workplace Privacy: Can Your Employer Read Your WhatsApp?',
+    pillar: 'Privacy & Data Protection',
+    hero: '/img/blog/B12-popia-workplace-privacy.png',
+    published: '2026-07-20',
+    excerpt: 'Workplace monitoring is possible, but POPIA, RICA and labour law place firm limits on when employers may access personal communications.',
+    content: stripFrontmatter(b12),
+  },
+  {
+    slug: 'unfair-dismissal-ccma-process',
+    title: 'Unfair Dismissal and the CCMA Process Explained Simply',
+    pillar: 'Labour & Employment Law',
+    hero: '/img/blog/B13-unfair-dismissal-ccma.png',
+    published: '2026-07-20',
+    excerpt: 'A fair dismissal needs both a fair reason and a fair process. Here is how to refer a dispute and what to expect at the CCMA.',
+    content: stripFrontmatter(b13),
   },
   // B5–B8 commented out — client reviewing one post at a time
   // {

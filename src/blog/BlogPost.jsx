@@ -50,7 +50,7 @@ export default function BlogPost() {
   return (
     <div style={{ background: '#000', minHeight: '100vh' }}>
       <Helmet>
-        <title>{post.title} | AH Stander &amp; Agenbag Inc</title>
+        <title>{`${post.title} | AH Stander & Agenbag Inc`}</title>
         <meta name="description" content={post.excerpt} />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:title" content={post.title} />
@@ -89,6 +89,7 @@ export default function BlogPost() {
           width: '100%',
           maxWidth: '780px',
           padding: '0 24px',
+          boxSizing: 'border-box',
         }}>
           <span style={{
             display: 'inline-block',
