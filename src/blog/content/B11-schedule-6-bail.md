@@ -82,5 +82,5 @@ If you or a family member is facing a Schedule 6 charge and need advice on a bai
 
 **Official sources**
 
-*   [Criminal Procedure Act 51 of 1977](https://www.gov.za/documents/criminal-procedure-act-51-1977-22-jul-1977-0000), section 60(11)(a) and Schedule 6
+*   [Criminal Procedure Act 51 of 1977](https://www.gov.za/documents/criminal-procedure-act-1977-26-mar-2015-1224), section 60(11)(a) and Schedule 6
 *   [S v Dlamini; S v Dladla and Others; S v Joubert; S v Schietekat 1999 (4) SA 623 (CC)](https://www.saflii.org/za/cases/ZACC/1999/8.html)

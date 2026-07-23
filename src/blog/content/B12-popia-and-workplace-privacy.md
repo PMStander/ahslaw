@@ -70,7 +70,7 @@ Serious breaches of POPIA can attract administrative fines of up to R10 million.
 ### Official sources
 
 - [Protection of Personal Information Act 4 of 2013](https://www.gov.za/documents/protection-personal-information-act)
-- [Regulation of Interception of Communications and Provision of Communication-Related Information Act 70 of 2002](https://www.gov.za/documents/regulation-interception-communications-and-provision-communication-related-information--0)
+- [Regulation of Interception of Communications and Provision of Communication-Related Information Act 70 of 2002](https://www.justice.gov.za/legislation/acts/2002-070.pdf)
 - [Labour Relations Act 66 of 1995](https://www.gov.za/documents/labour-relations-act) and the Code of Good Practice: Dismissal
 - [Information Regulator](https://inforegulator.org.za/) and its [eServices portal](https://eservices.inforegulator.org.za/)
 

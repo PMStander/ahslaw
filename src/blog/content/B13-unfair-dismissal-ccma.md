@@ -95,5 +95,5 @@ If you have been dismissed and are unsure about your rights or the next steps, g
 **Official sources**
 
 -   [Labour Relations Act 66 of 1995](https://www.gov.za/documents/labour-relations-act) (especially sections 185, 186, 187, 188 and 191)
--   [Code of Good Practice: Dismissal](https://www.gov.za/documents/notices/labour-relations-act-code-good-practice-dismissal-4-sep-2025) (published 4 September 2025)
+-   [Code of Good Practice: Dismissal](https://www.gov.za/documents/notices/labour-relations-act-code-practice-dismissal-04-sep-2025) (published 4 September 2025)
 -   [CCMA website](https://www.ccma.org.za/)
