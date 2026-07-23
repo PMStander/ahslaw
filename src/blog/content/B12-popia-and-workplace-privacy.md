@@ -1,7 +1,7 @@
 ---
 title: "POPIA and Workplace Privacy: Can Your Employer Read Your WhatsApp?"
 slug: popia-workplace-privacy-whatsapp
-pillar: "Privacy & Data Protection"
+pillar: Privacy & Data Protection
 hero_image: "../images/blog/B12-popia-and-workplace-privacy.png"
 hero_image_prompt: |
   Cinematic, dark and moody shot of a concerned employee looking at their smartphone.

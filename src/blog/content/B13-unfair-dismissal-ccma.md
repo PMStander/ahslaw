@@ -1,7 +1,7 @@
 ---
 title: "Unfair Dismissal and the CCMA Process Explained Simply"
 slug: unfair-dismissal-ccma-process
-pillar: "Labour & Employment Law"
+pillar: Labour & Employment Law
 hero_image: "../images/blog/B13-unfair-dismissal-ccma.png"
 hero_image_prompt: |
   Cinematic, hyper-detailed, dramatic lighting: A single wooden gavel rests
