@@ -1,10 +1,22 @@
 ---
 title: "POPIA and Workplace Privacy: Can Your Employer Read Your WhatsApp?"
-description: "How much of your communication can your employer lawfully see? A look at POPIA, RICA, and the LRA in the South African workplace."
-author: "Rikus Stander"
-date: "2026-07-20"
-hero_image: "/src/assets/blog/B12-popia-and-workplace-privacy.jpg"
-hero_image_prompt: "Cinematic, dark and moody shot of a concerned employee looking at their smartphone. In the background, a shadowy figure of a manager is subtly visible, representing workplace surveillance. The lighting is low-key, with the phone screen illuminating the employee's face, highlighting the theme of privacy invasion. The overall tone is one of tension and legal scrutiny. Shot on a Sony a7S III with a 50mm f/1.2 lens, shallow depth of field, dramatic lighting."
+slug: popia-workplace-privacy-whatsapp
+pillar: "Privacy & Data Protection"
+hero_image: "../images/blog/B12-popia-and-workplace-privacy.png"
+hero_image_prompt: |
+  Cinematic, dark and moody shot of a concerned employee looking at their smartphone.
+  In the background, a shadowy figure of a manager is subtly visible, representing
+  workplace surveillance. The lighting is low-key, with the phone screen illuminating
+  the employee's face, highlighting the theme of privacy invasion. The overall
+  tone is one of tension and legal scrutiny. Shot on a Sony a7S III with a 50mm f/1.2 lens,
+  shallow depth of field, dramatic lighting.
+word_count: 980
+published: 2026-07-20
+references:
+  - "Protection of Personal Information Act 4 of 2013 (POPIA) — gov.za"
+  - "Regulation of Interception of Communications Act 70 of 2002 (RICA) — gov.za"
+  - "Labour Relations Act 66 of 1995 — SAFLII"
+  - "Information Regulator South Africa — inforegulator.org.za"
 ---
 
 Most of us spend a large part of our day connected. Work emails, group chats, and personal WhatsApps blur together, especially when people use work phones or check messages during office hours. The practical question that keeps coming up is simple: how much of that can your employer lawfully see, and what happens if they use it against you?

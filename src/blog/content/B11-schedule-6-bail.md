@@ -11,8 +11,8 @@ hero_image_prompt: |
 word_count: 850
 published: 2026-07-20
 references:
-  - "Criminal Procedure Act 51 of 1977"
-  - "S v Dlamini; S v Dladla and Others; S v Joubert; S v Schietekat 1999 (4) SA 623 (CC)"
+  - "Criminal Procedure Act 51 of 1977 — justice.gov.za"
+  - "S v Dlamini 1999 (4) SA 623 (CC) — SAFLII"
 ---
 
 When someone is charged with a very serious offence in South Africa, bail is no longer the normal starting point. For offences listed in Schedule 6 of the Criminal Procedure Act 51 of 1977, the law flips the usual approach. The court must keep the accused in custody unless that person can show something specific: exceptional circumstances that, in the interests of justice, allow release.

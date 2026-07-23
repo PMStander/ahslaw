@@ -1,8 +1,19 @@
 ---
-title: Unfair Dismissal and the CCMA Process Explained Simply
-published_date: 2026-07-20
-hero_image: /src/blog/B13-unfair-dismissal-ccma.png
-hero_image_prompt: 'Cinematic, hyper-detailed, dramatic lighting: A single wooden gavel rests on a stack of law books on a polished wooden table. In the background, out of focus, are the scales of justice. The mood is serious and professional. Shot on a Sony A7S III with a 90mm macro lens, f/2.8.'
+title: "Unfair Dismissal and the CCMA Process Explained Simply"
+slug: unfair-dismissal-ccma-process
+pillar: "Labour & Employment Law"
+hero_image: "../images/blog/B13-unfair-dismissal-ccma.png"
+hero_image_prompt: |
+  Cinematic, hyper-detailed, dramatic lighting: A single wooden gavel rests
+  on a stack of law books on a polished wooden table. In the background, out of
+  focus, are the scales of justice. The mood is serious and professional.
+  Shot on a Sony A7S III with a 90mm macro lens, f/2.8.
+word_count: 920
+published: 2026-07-20
+references:
+  - "Labour Relations Act 66 of 1995 — SAFLII"
+  - "Code of Good Practice: Dismissal (2025) — Department of Labour"
+  - "Commission for Conciliation, Mediation and Arbitration (CCMA) — ccma.org.za"
 ---
 # Unfair Dismissal and the CCMA Process Explained Simply
 
