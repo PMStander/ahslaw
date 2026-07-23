@@ -55,6 +55,8 @@ Even when monitoring is lawful under POPIA and RICA, the employer still has to f
 
 Employees who are disciplined or dismissed on the basis of monitored messages should therefore look carefully at how the information was obtained, whether a proper policy existed, and whether they were given a fair opportunity to respond.
 
+If the monitoring leads to disciplinary action or dismissal, [the CCMA process and unfair-dismissal rules](/blog/unfair-dismissal-ccma-process) may also apply.
+
 ### Practical steps for both sides
 
 Employers who want to stay on the right side of the law should have a clear, written electronic communications and monitoring policy that employees have seen and acknowledged. The policy should explain what is monitored, why, and how the information will be handled. Monitoring should be limited to what is necessary.
@@ -67,11 +69,11 @@ Serious breaches of POPIA can attract administrative fines of up to R10 million.
 
 ### Official sources
 
-- Protection of Personal Information Act 4 of 2013
-- Regulation of Interception of Communications and Provision of Communication-Related Information Act 70 of 2002
-- Labour Relations Act 66 of 1995 and the Code of Good Practice: Dismissal
-- Information Regulator: https://inforegulator.org.za/ and https://eservices.inforegulator.org.za/
+- [Protection of Personal Information Act 4 of 2013](https://www.gov.za/documents/protection-personal-information-act)
+- [Regulation of Interception of Communications and Provision of Communication-Related Information Act 70 of 2002](https://www.gov.za/documents/regulation-interception-communications-and-provision-communication-related-information--0)
+- [Labour Relations Act 66 of 1995](https://www.gov.za/documents/labour-relations-act) and the Code of Good Practice: Dismissal
+- [Information Regulator](https://inforegulator.org.za/) and its [eServices portal](https://eservices.inforegulator.org.za/)
 
 Workplace monitoring is possible, but it is tightly regulated. Employers who treat it as an unrestricted management right create legal risk for themselves. Employees who assume their messages are completely private on company systems may be surprised. Clear policies, proper notice, and proportionality remain the safest path for both sides.
 
-If you are dealing with a monitoring dispute — whether as an employee or an employer — AHSA Law can assist. Contact us at https://www.ahslaw.co.za/#contact.
+If you are dealing with a monitoring dispute — whether as an employee or an employer — AHS Law can assist. [Contact us for a confidential consultation](https://www.ahslaw.co.za/#contact).

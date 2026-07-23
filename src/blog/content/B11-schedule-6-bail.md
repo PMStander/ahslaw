@@ -76,9 +76,11 @@ Timing is critical. A poorly prepared first bail application can make a later on
 
 Families often feel powerless when a loved one is facing a Schedule 6 charge. Understanding that the law requires more than ordinary personal circumstances is the first step. The second is ensuring that any application is properly prepared with real, verifiable evidence.
 
-If you or a family member is facing a Schedule 6 charge and need advice on a bail application, contact AHSA Law. We regularly deal with these matters and can assess whether the facts of the case support an application. https://www.ahslaw.co.za/#contact
+It also helps to understand [your rights when arrested in South Africa](/blog/your-rights-when-arrested-south-africa), especially the right to remain silent, the right to legal representation and the 48-hour court rule.
+
+If you or a family member is facing a Schedule 6 charge and need advice on a bail application, contact AHS Law. We regularly deal with these matters and can assess whether the facts of the case support an application. [Contact us for a confidential consultation](https://www.ahslaw.co.za/#contact).
 
 **Official sources**
 
-*   Criminal Procedure Act 51 of 1977, section 60(11)(a) and Schedule 6
-*   S v Dlamini; S v Dladla and Others; S v Joubert; S v Schietekat 1999 (4) SA 623 (CC)
+*   [Criminal Procedure Act 51 of 1977](https://www.gov.za/documents/criminal-procedure-act-51-1977-22-jul-1977-0000), section 60(11)(a) and Schedule 6
+*   [S v Dlamini; S v Dladla and Others; S v Joubert; S v Schietekat 1999 (4) SA 623 (CC)](https://www.saflii.org/za/cases/ZACC/1999/8.html)

@@ -78,7 +78,7 @@ The exact amount of compensation depends on factors such as how unfair the dismi
 
 ### Practical tips
 
--   Keep all documents: dismissal letter, warnings, emails, performance reviews, and any notes of meetings.
+-   Keep all documents: dismissal letter, warnings, emails, performance reviews, and any notes of meetings. Where monitored communications are involved, also consider [your workplace privacy rights under POPIA and RICA](/blog/popia-workplace-privacy-whatsapp).
 -   Ask the employer in writing for the reasons for the dismissal if they have not been given clearly.
 -   Do not delay the CCMA referral while trying to negotiate with the employer. You can still talk while the referral is running.
 -   Be honest and consistent in your version of events.
@@ -89,11 +89,11 @@ Not every dismissal that feels unfair will succeed at the CCMA. The employer onl
 
 If you have been dismissed and are unsure about your rights or the next steps, getting early advice can make a real difference — especially with the strict 30-day time limit.
 
-*AHSA Law can assist with advice on unfair dismissal matters and related labour disputes. Contact us at https://www.ahslaw.co.za/#contact.*
+*AHS Law can assist with advice on unfair dismissal matters and related labour disputes. [Contact us for a confidential consultation](https://www.ahslaw.co.za/#contact).*
 
 ---
 **Official sources**
 
--   Labour Relations Act 66 of 1995 (especially sections 185, 186, 187, 188 and 191)
--   Code of Good Practice: Dismissal (published 4 September 2025)
--   CCMA website: https://www.ccma.org.za
+-   [Labour Relations Act 66 of 1995](https://www.gov.za/documents/labour-relations-act) (especially sections 185, 186, 187, 188 and 191)
+-   [Code of Good Practice: Dismissal](https://www.gov.za/documents/notices/labour-relations-act-code-good-practice-dismissal-4-sep-2025) (published 4 September 2025)
+-   [CCMA website](https://www.ccma.org.za/)
