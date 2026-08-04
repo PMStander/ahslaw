@@ -5,6 +5,7 @@ import b4 from './content/B4-marital-regimes.md?raw'
 import b11 from './content/B11-schedule-6-bail.md?raw'
 import b12 from './content/B12-popia-and-workplace-privacy.md?raw'
 import b13 from './content/B13-unfair-dismissal-ccma.md?raw'
+import b14 from './content/B14-divorce-south-africa-what-to-expect.md?raw'
 // import b5 from './content/B5-debt-myth.md?raw'
 // import b6 from './content/B6-popia-whatsapp.md?raw'
 // import b7 from './content/B7-conveyancing.md?raw'
@@ -78,6 +79,15 @@ export const posts = [
     published: '2026-07-20',
     excerpt: 'A fair dismissal needs both a fair reason and a fair process. Here is how to refer a dispute and what to expect at the CCMA.',
     content: stripFrontmatter(b13),
+  },
+  {
+    slug: 'divorce-south-africa-what-to-expect',
+    title: 'Divorce in South Africa: What to Expect and How to Protect Yourself',
+    pillar: 'Family',
+    hero: '/img/blog/B14-divorce-south-africa-what-to-expect.png',
+    published: '2026-07-30',
+    excerpt: 'From irretrievable breakdown to the marital property regime, this plain-language guide walks through how divorce actually works in South Africa — assets, children, maintenance, and the steps involved.',
+    content: stripFrontmatter(b14),
   },
   // B5–B8 commented out — client reviewing one post at a time
   // {
